@@ -7,111 +7,165 @@
 <style>
 :root {
   --bg: #f5f4f0; --fg: #1c1c1a; --muted: #6b6963; --card: #ffffff; --line: #e2e0d9;
-  --ig: #d62976; --tt: #010101; --tt2: #25f4ee; --yt: #e00000; --tw: #7c3aed;
-  --chip-bg: #ffffff;
+  --ig: #d62976; --tt: #0b0b0b; --tt2: #25f4ee; --yt: #e00000; --tw: #7c3aed;
+  --today: #fde68a;
   color-scheme: light;
 }
 @media (prefers-color-scheme: dark) {
   :root {
     --bg: #151514; --fg: #f1f0ec; --muted: #a3a197; --card: #1f1f1c; --line: #33332e;
     --ig: #ff6fa5; --tt: #f1f0ec; --tt2: #25f4ee; --yt: #ff7a7a; --tw: #c4b5fd;
-    --chip-bg: #1f1f1c;
+    --today: #6b5a1e;
     color-scheme: dark;
   }
 }
 * { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
 body {
   margin: 0; background: var(--bg); color: var(--fg);
-  font: 15px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  padding: 24px max(16px, env(safe-area-inset-right, 0px)) 56px max(16px, env(safe-area-inset-left, 0px));
+  font: 14px/1.4 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  padding: 20px max(12px, env(safe-area-inset-right, 0px)) 48px max(12px, env(safe-area-inset-left, 0px));
 }
-main { max-width: 720px; margin: 0 auto; }
-h1 { font-size: 24px; margin: 0 0 4px; letter-spacing: -0.01em; }
-.intro { color: var(--muted); margin: 0 0 16px; font-size: 13px; }
-nav { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 28px; }
-nav a {
-  text-decoration: none; color: var(--fg); background: var(--chip-bg);
-  border: 1px solid var(--line); border-radius: 999px; padding: 6px 12px; font-size: 13px; font-weight: 600;
+main { max-width: 1280px; margin: 0 auto; }
+.top { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-bottom: 16px; }
+h1 { font-size: 22px; margin: 0; letter-spacing: -0.01em; }
+.intro { color: var(--muted); font-size: 13px; margin: 2px 0 0; }
+.month { display: flex; align-items: center; gap: 8px; }
+.month button {
+  font: inherit; color: var(--fg); background: var(--card); border: 1px solid var(--line);
+  border-radius: 8px; width: 34px; height: 34px; cursor: pointer;
 }
-section { margin-bottom: 32px; scroll-margin-top: 16px; }
-.head {
-  display: flex; align-items: baseline; justify-content: space-between; gap: 12px;
-  border-bottom: 3px solid var(--accent); padding-bottom: 6px; margin-bottom: 12px;
+.month strong { min-width: 150px; text-align: center; text-transform: capitalize; font-variant-numeric: tabular-nums; }
+.board { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; align-items: start; }
+@media (max-width: 1000px) { .board { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .board { grid-template-columns: minmax(0, 1fr); } }
+.col {
+  background: var(--card); border: 1px solid var(--line); border-top: 4px solid var(--accent);
+  border-radius: 12px; padding: 12px; min-width: 0;
 }
-.head h2 { font-size: 18px; margin: 0; color: var(--accent); letter-spacing: 0.01em; }
-.head span { color: var(--muted); font-size: 13px; font-variant-numeric: tabular-nums; }
-.ig { --accent: var(--ig); }
-.tt { --accent: var(--tt); }
-.yt { --accent: var(--yt); }
-.tw { --accent: var(--tw); }
-.list { display: grid; gap: 10px; }
-.card {
-  background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--accent);
-  border-radius: 10px; padding: 12px 14px; min-width: 0;
+.col h2 { font-size: 16px; margin: 0 0 8px; color: var(--accent); }
+.dow, .grid { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 3px; }
+.dow span { text-align: center; font-size: 11px; color: var(--muted); font-weight: 600; padding-bottom: 2px; }
+.day {
+  min-height: 38px; border: 1px solid var(--line); border-radius: 6px; padding: 3px 3px 4px;
+  font-size: 11px; font-variant-numeric: tabular-nums; display: flex; flex-direction: column; gap: 2px;
+  min-width: 0;
 }
-.meta { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
-.date { color: var(--muted); font-size: 13px; text-transform: capitalize; font-variant-numeric: tabular-nums; }
-.chip {
-  font-size: 11px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase;
-  padding: 2px 8px; border-radius: 999px; border: 1px solid var(--accent); color: var(--accent);
-}
-h3 { font-size: 16px; margin: 6px 0 4px; text-wrap: balance; }
-.status { color: var(--muted); font-size: 13px; }
-.empty {
-  border: 1px dashed var(--line); border-radius: 10px; padding: 16px 14px;
-  color: var(--muted); font-size: 14px;
-}
+.day.blank { border-color: transparent; }
+.day.today { background: var(--today); }
+.day .n { color: var(--muted); }
+.dots { display: flex; gap: 2px; flex-wrap: wrap; }
+.dot { width: 7px; height: 7px; border-radius: 50%; background: var(--accent); }
+.dot.short { background: transparent; border: 2px solid var(--accent); width: 6px; height: 6px; }
+.legend { color: var(--muted); font-size: 11px; margin: 6px 0 10px; }
+.list { list-style: none; margin: 12px 0 0; padding: 0; display: grid; gap: 8px; }
+.list li { border-top: 1px solid var(--line); padding-top: 8px; min-width: 0; }
+.list .d { color: var(--muted); font-size: 12px; text-transform: capitalize; font-variant-numeric: tabular-nums; }
+.list .t { font-size: 13px; text-wrap: balance; margin: 2px 0; }
+.list .s { color: var(--muted); font-size: 12px; }
+.none { color: var(--muted); font-size: 13px; margin: 12px 0 0; }
 </style>
 </head>
 <body>
 <main>
-  <h1>Calendario de contenido</h1>
-  <p class="intro">Cargando…</p>
-
-  <nav aria-label="Plataformas">
-    <a href="#instagram">Instagram</a>
-    <a href="#tiktok">TikTok</a>
-    <a href="#youtube">YouTube</a>
-    <a href="#twitch">Twitch</a>
-  </nav>
-
-  <div id="sections"></div>
+  <div class="top">
+    <div>
+      <h1>Calendario de contenido</h1>
+      <p class="intro" id="intro">Cargando…</p>
+    </div>
+    <div class="month">
+      <button id="prev" aria-label="Mes anterior">‹</button>
+      <strong id="label"></strong>
+      <button id="next" aria-label="Mes siguiente">›</button>
+    </div>
+  </div>
+  <div class="board" id="board"></div>
 </main>
 <script>
+const CLS = { instagram: "ig", tiktok: "tt", youtube: "yt", twitch: "tw" };
+const MONTHS = ["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"];
 let PLATFORMS = [];
+let view = { y: 2026, m: 10 };
 
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) =>
   ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
-const fmt = (iso) => new Date(iso + "T12:00:00").toLocaleDateString("es-ES", { weekday: "short", day: "numeric", month: "short" });
+const pad = (n) => String(n).padStart(2, "0");
+const fmtDate = (iso) => new Date(iso + "T12:00:00").toLocaleDateString("es-ES", { weekday: "short", day: "numeric", month: "short" });
 
-const CLS = { instagram: "ig", tiktok: "tt", youtube: "yt", twitch: "tw" };
-function draw(data) {
-PLATFORMS = data.plataformas.map((p) => ({ id: p.id, name: p.nombre, cls: CLS[p.id], posts: p.piezas.map((x) => ({ date: x.fecha, format: x.formato, title: x.titulo, status: x.estado })) }));
-document.getElementById("sections").innerHTML = PLATFORMS.map((p) => {
-  const sorted = [...p.posts].sort((a, b) => a.date.localeCompare(b.date));
-  const body = sorted.length
-    ? `<div class="list">${sorted.map((x) => `
-        <article class="card">
-          <div class="meta">
-            <span class="date">${esc(fmt(x.date))}</span>
-            <span class="chip">${esc(x.format)}</span>
-          </div>
-          <h3>${esc(x.title)}</h3>
-          <div class="status">${esc(x.status)}</div>
-        </article>`).join("")}</div>`
-    : `<div class="empty">Todavía no hay contenido para ${esc(p.name)}.</div>`;
-  return `
-    <section id="${p.id}" class="${p.cls}">
-      <div class="head"><h2>${esc(p.name)}</h2><span>${sorted.length} ${sorted.length === 1 ? "pieza" : "piezas"}</span></div>
-      ${body}
-    </section>`;
-}).join("");
+function shift(delta) {
+  let m = view.m + delta, y = view.y;
+  while (m < 0) { m += 12; y--; }
+  while (m > 11) { m -= 12; y++; }
+  view = { y, m };
+  render();
 }
+
+function column(p) {
+  const y = view.y, m = view.m;
+  const first = new Date(y, m, 1);
+  const offset = (first.getDay() + 6) % 7;
+  const days = new Date(y, m + 1, 0).getDate();
+  const now = new Date();
+  const todayIso = now.getFullYear() + "-" + pad(now.getMonth() + 1) + "-" + pad(now.getDate());
+
+  const monthPosts = p.posts.filter((x) => x.date.startsWith(y + "-" + pad(m + 1)))
+    .sort((a, b) => a.date.localeCompare(b.date));
+
+  let cells = "";
+  for (let i = 0; i < offset; i++) cells += '<div class="day blank"></div>';
+  for (let d = 1; d <= days; d++) {
+    const iso = y + "-" + pad(m + 1) + "-" + pad(d);
+    const here = p.posts.filter((x) => x.date === iso);
+    const dots = here.map((x) => `<span class="dot ${x.format === "Largo" ? "" : "short"}" title="${esc(x.title)}"></span>`).join("");
+    cells += `<div class="day${iso === todayIso ? " today" : ""}" title="${esc(here.map((x) => x.title).join(" · "))}"><span class="n">${d}</span><div class="dots">${dots}</div></div>`;
+  }
+
+  const list = monthPosts.length
+    ? `<ul class="list">${monthPosts.map((x) => `
+        <li>
+          <div class="d">${esc(fmtDate(x.date))} · ${esc(x.format)}</div>
+          <div class="t">${esc(x.title)}</div>
+          <div class="s">${esc(x.status)}</div>
+        </li>`).join("")}</ul>`
+    : '<p class="none">Sin contenido este mes.</p>';
+
+  return `
+    <section class="col ${CLS[p.id] || ""}" aria-label="${esc(p.name)}">
+      <h2>${esc(p.name)}</h2>
+      <div class="dow">${["L","M","X","J","V","S","D"].map((d) => `<span>${d}</span>`).join("")}</div>
+      <div class="grid">${cells}</div>
+      <p class="legend">● Largo &nbsp; ○ Short</p>
+      ${list}
+    </section>`;
+}
+
+function render() {
+  document.getElementById("label").textContent = MONTHS[view.m] + " " + view.y;
+  document.getElementById("board").innerHTML = PLATFORMS.map(column).join("");
+}
+
+document.getElementById("prev").addEventListener("click", () => shift(-1));
+document.getElementById("next").addEventListener("click", () => shift(1));
+
 fetch("data.json?v=" + Date.now(), { cache: "no-store" })
   .then((r) => r.json())
-  .then((d) => { draw(d); const up = document.querySelector(".intro"); if (up) up.textContent = "Actualizado el " + new Date(d.actualizado + "T12:00:00").toLocaleDateString("es-ES", { day: "numeric", month: "long", year: "numeric" }) + ". Pídele a Claude los cambios y se actualiza aquí."; })
-  .catch(() => { document.getElementById("sections").innerHTML = '<div class="empty">No se pudo cargar el calendario. Vuelve a intentarlo.</div>'; });
+  .then((d) => {
+    PLATFORMS = d.plataformas.map((p) => ({
+      id: p.id,
+      name: p.nombre,
+      posts: p.piezas.map((x) => ({ date: x.fecha, format: x.formato, title: x.titulo, status: x.estado })),
+    }));
+    const dates = PLATFORMS.flatMap((p) => p.posts.map((x) => x.date)).sort();
+    if (dates.length) {
+      const [yy, mm] = dates[0].split("-").map(Number);
+      view = { y: yy, m: mm - 1 };
+    }
+    document.getElementById("intro").textContent =
+      "Actualizado el " + new Date(d.actualizado + "T12:00:00").toLocaleDateString("es-ES", { day: "numeric", month: "long", year: "numeric" }) + ".";
+    render();
+  })
+  .catch(() => {
+    document.getElementById("intro").textContent = "No se pudo cargar el calendario. Vuelve a intentarlo.";
+  });
 </script>
 </body>
 </html>
