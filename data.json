@@ -31,10 +31,10 @@
     {
       "fecha": "2026-11-07",
       "tipo": "Grabar",
-      "plataforma": "tiktok",
-      "formato": "Short",
+      "plataforma": "youtube",
+      "formato": "Largo",
       "titulo": "Sacando productos de cajas que tengo en casa",
-      "estado": "Pendiente"
+      "estado": "Grabar en horizontal (16:9) para YouTube · 8–12 min · 30 s iniciales explicando qué se ve · luego recortar clips verticales para TikTok y Reels"
     },
     {
       "fecha": "2026-11-07",
@@ -194,14 +194,6 @@
     {
       "fecha": "2026-11-11",
       "tipo": "Publicar",
-      "plataforma": "tiktok",
-      "formato": "Short",
-      "titulo": "Sacando productos de cajas que tengo en casa",
-      "estado": "Programado · TikTok, Reels y Shorts a la vez"
-    },
-    {
-      "fecha": "2026-11-11",
-      "tipo": "Publicar",
       "plataforma": "instagram",
       "formato": "Carrusel",
       "titulo": "Carrusel de fotos (lifestyle)",
@@ -210,18 +202,10 @@
     {
       "fecha": "2026-11-11",
       "tipo": "Publicar",
-      "plataforma": "instagram",
-      "formato": "Short",
-      "titulo": "Sacando productos de cajas que tengo en casa",
-      "estado": "Reel · mismo vídeo que TikTok · Programado · TikTok, Reels y Shorts a la vez"
-    },
-    {
-      "fecha": "2026-11-11",
-      "tipo": "Publicar",
       "plataforma": "youtube",
-      "formato": "Short",
+      "formato": "Largo",
       "titulo": "Sacando productos de cajas que tengo en casa",
-      "estado": "Short · mismo vídeo que TikTok · Programado · TikTok, Reels y Shorts a la vez"
+      "estado": "Programado · vídeo largo · clips para TikTok y Reels después"
     },
     {
       "fecha": "2026-11-12",
