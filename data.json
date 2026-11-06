@@ -123,6 +123,24 @@
       "guion": "guion-comer-3-dias"
     },
     {
+      "fecha": "2026-11-09",
+      "tipo": "Publicar",
+      "plataforma": "instagram",
+      "formato": "Short",
+      "titulo": "Comer 3 días con 20 €",
+      "estado": "Reel · mismo vídeo que TikTok · Programado",
+      "guion": "guion-comer-3-dias"
+    },
+    {
+      "fecha": "2026-11-09",
+      "tipo": "Publicar",
+      "plataforma": "youtube",
+      "formato": "Short",
+      "titulo": "Comer 3 días con 20 €",
+      "estado": "Short · mismo vídeo que TikTok · Programado",
+      "guion": "guion-comer-3-dias"
+    },
+    {
       "fecha": "2026-11-10",
       "tipo": "Directo",
       "plataforma": "twitch",
@@ -137,6 +155,24 @@
       "formato": "Short",
       "titulo": "Lo que pido a domicilio cuando llego tarde y la nevera está vacía: mi ranking de 5",
       "estado": "Programado",
+      "guion": "guion-domicilio"
+    },
+    {
+      "fecha": "2026-11-10",
+      "tipo": "Publicar",
+      "plataforma": "instagram",
+      "formato": "Short",
+      "titulo": "Lo que pido a domicilio cuando llego tarde y la nevera está vacía: mi ranking de 5",
+      "estado": "Reel · mismo vídeo que TikTok · Programado",
+      "guion": "guion-domicilio"
+    },
+    {
+      "fecha": "2026-11-10",
+      "tipo": "Publicar",
+      "plataforma": "youtube",
+      "formato": "Short",
+      "titulo": "Lo que pido a domicilio cuando llego tarde y la nevera está vacía: mi ranking de 5",
+      "estado": "Short · mismo vídeo que TikTok · Programado",
       "guion": "guion-domicilio"
     },
     {
@@ -161,7 +197,7 @@
       "plataforma": "tiktok",
       "formato": "Short",
       "titulo": "Sacando productos de cajas que tengo en casa",
-      "estado": "Por decidir: TikTok, YouTube o ambas"
+      "estado": "Programado · TikTok, Reels y Shorts a la vez"
     },
     {
       "fecha": "2026-11-11",
@@ -172,6 +208,22 @@
       "estado": "Programado · 19:30 · pendiente de fotos"
     },
     {
+      "fecha": "2026-11-11",
+      "tipo": "Publicar",
+      "plataforma": "instagram",
+      "formato": "Short",
+      "titulo": "Sacando productos de cajas que tengo en casa",
+      "estado": "Reel · mismo vídeo que TikTok · Programado · TikTok, Reels y Shorts a la vez"
+    },
+    {
+      "fecha": "2026-11-11",
+      "tipo": "Publicar",
+      "plataforma": "youtube",
+      "formato": "Short",
+      "titulo": "Sacando productos de cajas que tengo en casa",
+      "estado": "Short · mismo vídeo que TikTok · Programado · TikTok, Reels y Shorts a la vez"
+    },
+    {
       "fecha": "2026-11-12",
       "tipo": "Publicar",
       "plataforma": "tiktok",
@@ -180,12 +232,46 @@
       "estado": "Clips del directo del martes"
     },
     {
+      "fecha": "2026-11-12",
+      "tipo": "Publicar",
+      "plataforma": "instagram",
+      "formato": "Short",
+      "titulo": "Comentando pisos (clips del directo)",
+      "estado": "Reel · mismo vídeo que TikTok · Clips del directo del martes"
+    },
+    {
+      "fecha": "2026-11-12",
+      "tipo": "Publicar",
+      "plataforma": "youtube",
+      "formato": "Short",
+      "titulo": "Comentando pisos (clips del directo)",
+      "estado": "Short · mismo vídeo que TikTok · Clips del directo del martes"
+    },
+    {
       "fecha": "2026-11-13",
       "tipo": "Publicar",
       "plataforma": "tiktok",
       "formato": "Short",
       "titulo": "Lo que cambiaría de mi casa después de 3 años viviendo sola",
       "estado": "Programado",
+      "guion": "guion-cambiaria"
+    },
+    {
+      "fecha": "2026-11-13",
+      "tipo": "Publicar",
+      "plataforma": "instagram",
+      "formato": "Short",
+      "titulo": "Lo que cambiaría de mi casa después de 3 años viviendo sola",
+      "estado": "Reel · mismo vídeo que TikTok · Programado",
+      "guion": "guion-cambiaria"
+    },
+    {
+      "fecha": "2026-11-13",
+      "tipo": "Publicar",
+      "plataforma": "youtube",
+      "formato": "Short",
+      "titulo": "Lo que cambiaría de mi casa después de 3 años viviendo sola",
+      "estado": "Short · mismo vídeo que TikTok · Programado",
       "guion": "guion-cambiaria"
     },
     {
@@ -198,6 +284,24 @@
       "guion": "guion-compraria"
     },
     {
+      "fecha": "2026-11-14",
+      "tipo": "Publicar",
+      "plataforma": "instagram",
+      "formato": "Short",
+      "titulo": "Lo que compraría hoy si empezara de cero (y lo que no)",
+      "estado": "Reel · mismo vídeo que TikTok · Programado",
+      "guion": "guion-compraria"
+    },
+    {
+      "fecha": "2026-11-14",
+      "tipo": "Publicar",
+      "plataforma": "youtube",
+      "formato": "Short",
+      "titulo": "Lo que compraría hoy si empezara de cero (y lo que no)",
+      "estado": "Short · mismo vídeo que TikTok · Programado",
+      "guion": "guion-compraria"
+    },
+    {
       "fecha": "2026-11-15",
       "tipo": "Publicar",
       "plataforma": "tiktok",
@@ -206,12 +310,46 @@
       "estado": "Programado"
     },
     {
+      "fecha": "2026-11-15",
+      "tipo": "Publicar",
+      "plataforma": "instagram",
+      "formato": "Short",
+      "titulo": "Mi colección de chaquetas",
+      "estado": "Reel · mismo vídeo que TikTok · Programado"
+    },
+    {
+      "fecha": "2026-11-15",
+      "tipo": "Publicar",
+      "plataforma": "youtube",
+      "formato": "Short",
+      "titulo": "Mi colección de chaquetas",
+      "estado": "Short · mismo vídeo que TikTok · Programado"
+    },
+    {
       "fecha": "2026-11-16",
       "tipo": "Publicar",
       "plataforma": "tiktok",
       "formato": "Short",
       "titulo": "Errores que cometí en mi primer piso (no repitas el mío)",
       "estado": "Programado",
+      "guion": "guion-errores"
+    },
+    {
+      "fecha": "2026-11-16",
+      "tipo": "Publicar",
+      "plataforma": "instagram",
+      "formato": "Short",
+      "titulo": "Errores que cometí en mi primer piso (no repitas el mío)",
+      "estado": "Reel · mismo vídeo que TikTok · Programado",
+      "guion": "guion-errores"
+    },
+    {
+      "fecha": "2026-11-16",
+      "tipo": "Publicar",
+      "plataforma": "youtube",
+      "formato": "Short",
+      "titulo": "Errores que cometí en mi primer piso (no repitas el mío)",
+      "estado": "Short · mismo vídeo que TikTok · Programado",
       "guion": "guion-errores"
     },
     {
@@ -232,6 +370,24 @@
       "guion": "guion-nevera"
     },
     {
+      "fecha": "2026-11-17",
+      "tipo": "Publicar",
+      "plataforma": "instagram",
+      "formato": "Short",
+      "titulo": "Lo que hago con la nevera antes de irme de viaje (y lo que congelo)",
+      "estado": "Reel · mismo vídeo que TikTok · Programado",
+      "guion": "guion-nevera"
+    },
+    {
+      "fecha": "2026-11-17",
+      "tipo": "Publicar",
+      "plataforma": "youtube",
+      "formato": "Short",
+      "titulo": "Lo que hago con la nevera antes de irme de viaje (y lo que congelo)",
+      "estado": "Short · mismo vídeo que TikTok · Programado",
+      "guion": "guion-nevera"
+    },
+    {
       "fecha": "2026-11-18",
       "tipo": "Publicar",
       "plataforma": "tiktok",
@@ -248,6 +404,22 @@
       "estado": "Programado · 19:30 · pendiente de fotos"
     },
     {
+      "fecha": "2026-11-18",
+      "tipo": "Publicar",
+      "plataforma": "instagram",
+      "formato": "Short",
+      "titulo": "Si alguien más se pone la alarma una hora antes para dormir más",
+      "estado": "Reel · mismo vídeo que TikTok · Programado"
+    },
+    {
+      "fecha": "2026-11-18",
+      "tipo": "Publicar",
+      "plataforma": "youtube",
+      "formato": "Short",
+      "titulo": "Si alguien más se pone la alarma una hora antes para dormir más",
+      "estado": "Short · mismo vídeo que TikTok · Programado"
+    },
+    {
       "fecha": "2026-11-19",
       "tipo": "Publicar",
       "plataforma": "tiktok",
@@ -256,12 +428,46 @@
       "estado": "Clips del directo del martes"
     },
     {
+      "fecha": "2026-11-19",
+      "tipo": "Publicar",
+      "plataforma": "instagram",
+      "formato": "Short",
+      "titulo": "Comentando pisos (clips del directo)",
+      "estado": "Reel · mismo vídeo que TikTok · Clips del directo del martes"
+    },
+    {
+      "fecha": "2026-11-19",
+      "tipo": "Publicar",
+      "plataforma": "youtube",
+      "formato": "Short",
+      "titulo": "Comentando pisos (clips del directo)",
+      "estado": "Short · mismo vídeo que TikTok · Clips del directo del martes"
+    },
+    {
       "fecha": "2026-11-20",
       "tipo": "Publicar",
       "plataforma": "tiktok",
       "formato": "Short",
       "titulo": "Preguntas que me hacéis sobre independizarme (respondo)",
       "estado": "Programado",
+      "guion": "guion-preguntas"
+    },
+    {
+      "fecha": "2026-11-20",
+      "tipo": "Publicar",
+      "plataforma": "instagram",
+      "formato": "Short",
+      "titulo": "Preguntas que me hacéis sobre independizarme (respondo)",
+      "estado": "Reel · mismo vídeo que TikTok · Programado",
+      "guion": "guion-preguntas"
+    },
+    {
+      "fecha": "2026-11-20",
+      "tipo": "Publicar",
+      "plataforma": "youtube",
+      "formato": "Short",
+      "titulo": "Preguntas que me hacéis sobre independizarme (respondo)",
+      "estado": "Short · mismo vídeo que TikTok · Programado",
       "guion": "guion-preguntas"
     },
     {
@@ -291,6 +497,22 @@
       "estado": "Programado"
     },
     {
+      "fecha": "2026-11-21",
+      "tipo": "Publicar",
+      "plataforma": "instagram",
+      "formato": "Short",
+      "titulo": "POV: cantando para no violentarme",
+      "estado": "Reel · mismo vídeo que TikTok · Programado"
+    },
+    {
+      "fecha": "2026-11-21",
+      "tipo": "Publicar",
+      "plataforma": "youtube",
+      "formato": "Short",
+      "titulo": "POV: cantando para no violentarme",
+      "estado": "Short · mismo vídeo que TikTok · Programado"
+    },
+    {
       "fecha": "2026-11-22",
       "tipo": "Grabar",
       "plataforma": "tiktok",
@@ -324,12 +546,46 @@
       "estado": "Programado"
     },
     {
+      "fecha": "2026-11-22",
+      "tipo": "Publicar",
+      "plataforma": "instagram",
+      "formato": "Short",
+      "titulo": "Elegimos pica pica, primero, bebida y postre (con mi novia en el súper)",
+      "estado": "Reel · mismo vídeo que TikTok · Programado"
+    },
+    {
+      "fecha": "2026-11-22",
+      "tipo": "Publicar",
+      "plataforma": "youtube",
+      "formato": "Short",
+      "titulo": "Elegimos pica pica, primero, bebida y postre (con mi novia en el súper)",
+      "estado": "Short · mismo vídeo que TikTok · Programado"
+    },
+    {
       "fecha": "2026-11-23",
       "tipo": "Publicar",
       "plataforma": "tiktok",
       "formato": "Short",
       "titulo": "Cambios para decorar el piso sin tocar nada: un zapatero en vez de zapatos tirados",
       "estado": "Programado",
+      "guion": "guion-decorar"
+    },
+    {
+      "fecha": "2026-11-23",
+      "tipo": "Publicar",
+      "plataforma": "instagram",
+      "formato": "Short",
+      "titulo": "Cambios para decorar el piso sin tocar nada: un zapatero en vez de zapatos tirados",
+      "estado": "Reel · mismo vídeo que TikTok · Programado",
+      "guion": "guion-decorar"
+    },
+    {
+      "fecha": "2026-11-23",
+      "tipo": "Publicar",
+      "plataforma": "youtube",
+      "formato": "Short",
+      "titulo": "Cambios para decorar el piso sin tocar nada: un zapatero en vez de zapatos tirados",
+      "estado": "Short · mismo vídeo que TikTok · Programado",
       "guion": "guion-decorar"
     },
     {
@@ -350,6 +606,24 @@
       "guion": "guion-vivir-sola"
     },
     {
+      "fecha": "2026-11-24",
+      "tipo": "Publicar",
+      "plataforma": "instagram",
+      "formato": "Short",
+      "titulo": "Lo que nadie te dice de vivir sola desde el primer día",
+      "estado": "Reel · mismo vídeo que TikTok · Programado",
+      "guion": "guion-vivir-sola"
+    },
+    {
+      "fecha": "2026-11-24",
+      "tipo": "Publicar",
+      "plataforma": "youtube",
+      "formato": "Short",
+      "titulo": "Lo que nadie te dice de vivir sola desde el primer día",
+      "estado": "Short · mismo vídeo que TikTok · Programado",
+      "guion": "guion-vivir-sola"
+    },
+    {
       "fecha": "2026-11-25",
       "tipo": "Publicar",
       "plataforma": "tiktok",
@@ -364,6 +638,22 @@
       "formato": "Carrusel",
       "titulo": "Carrusel de fotos (lifestyle)",
       "estado": "Programado · 19:30 · pendiente de fotos"
+    },
+    {
+      "fecha": "2026-11-25",
+      "tipo": "Publicar",
+      "plataforma": "instagram",
+      "formato": "Short",
+      "titulo": "Housetour de mis 50 m² viviendo sola",
+      "estado": "Reel · mismo vídeo que TikTok · Programado"
+    },
+    {
+      "fecha": "2026-11-25",
+      "tipo": "Publicar",
+      "plataforma": "youtube",
+      "formato": "Short",
+      "titulo": "Housetour de mis 50 m² viviendo sola",
+      "estado": "Short · mismo vídeo que TikTok · Programado"
     },
     {
       "fecha": "2026-11-26",
@@ -382,12 +672,46 @@
       "estado": "Clips del directo del martes"
     },
     {
+      "fecha": "2026-11-26",
+      "tipo": "Publicar",
+      "plataforma": "instagram",
+      "formato": "Short",
+      "titulo": "Comentando pisos (clips del directo)",
+      "estado": "Reel · mismo vídeo que TikTok · Clips del directo del martes"
+    },
+    {
+      "fecha": "2026-11-26",
+      "tipo": "Publicar",
+      "plataforma": "youtube",
+      "formato": "Short",
+      "titulo": "Comentando pisos (clips del directo)",
+      "estado": "Short · mismo vídeo que TikTok · Clips del directo del martes"
+    },
+    {
       "fecha": "2026-11-27",
       "tipo": "Publicar",
       "plataforma": "tiktok",
       "formato": "Short",
       "titulo": "Plato en 3 minutos con lo que queda en la nevera",
       "estado": "Programado",
+      "guion": "guion-plato-3min"
+    },
+    {
+      "fecha": "2026-11-27",
+      "tipo": "Publicar",
+      "plataforma": "instagram",
+      "formato": "Short",
+      "titulo": "Plato en 3 minutos con lo que queda en la nevera",
+      "estado": "Reel · mismo vídeo que TikTok · Programado",
+      "guion": "guion-plato-3min"
+    },
+    {
+      "fecha": "2026-11-27",
+      "tipo": "Publicar",
+      "plataforma": "youtube",
+      "formato": "Short",
+      "titulo": "Plato en 3 minutos con lo que queda en la nevera",
+      "estado": "Short · mismo vídeo que TikTok · Programado",
       "guion": "guion-plato-3min"
     },
     {
@@ -399,12 +723,44 @@
       "estado": "Programado"
     },
     {
+      "fecha": "2026-11-30",
+      "tipo": "Publicar",
+      "plataforma": "instagram",
+      "formato": "Short",
+      "titulo": "Adivinando la película con un frame (con mi novia)",
+      "estado": "Reel · mismo vídeo que TikTok · Programado"
+    },
+    {
+      "fecha": "2026-11-30",
+      "tipo": "Publicar",
+      "plataforma": "youtube",
+      "formato": "Short",
+      "titulo": "Adivinando la película con un frame (con mi novia)",
+      "estado": "Short · mismo vídeo que TikTok · Programado"
+    },
+    {
       "fecha": "2026-12-01",
       "tipo": "Publicar",
       "plataforma": "tiktok",
       "formato": "Short",
       "titulo": "Regalos para independizados que hay que pedir ya para Navidad",
       "estado": "Programado"
+    },
+    {
+      "fecha": "2026-12-01",
+      "tipo": "Publicar",
+      "plataforma": "instagram",
+      "formato": "Short",
+      "titulo": "Regalos para independizados que hay que pedir ya para Navidad",
+      "estado": "Reel · mismo vídeo que TikTok · Programado"
+    },
+    {
+      "fecha": "2026-12-01",
+      "tipo": "Publicar",
+      "plataforma": "youtube",
+      "formato": "Short",
+      "titulo": "Regalos para independizados que hay que pedir ya para Navidad",
+      "estado": "Short · mismo vídeo que TikTok · Programado"
     },
     {
       "fecha": "2026-12-02",
