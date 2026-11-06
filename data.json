@@ -357,6 +357,14 @@
       "formato": "Short",
       "titulo": "Adivinando la película con un frame (con mi novia)",
       "estado": "Programado"
+    },
+    {
+      "fecha": "2026-12-01",
+      "tipo": "Publicar",
+      "plataforma": "tiktok",
+      "formato": "Short",
+      "titulo": "Regalos para independizados que hay que pedir ya para Navidad",
+      "estado": "Idea · falta fecha de grabación"
     }
   ]
 }
