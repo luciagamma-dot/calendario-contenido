@@ -18,5 +18,302 @@
       "nombre": "Twitch"
     }
   ],
-  "tareas": []
+  "tareas": [
+    {
+      "fecha": "2026-11-07",
+      "tipo": "Grabar",
+      "plataforma": "tiktok",
+      "formato": "Short",
+      "titulo": "Comer 3 días con 20 €",
+      "estado": "Pendiente"
+    },
+    {
+      "fecha": "2026-11-07",
+      "tipo": "Grabar",
+      "plataforma": "tiktok",
+      "formato": "Short",
+      "titulo": "Sacando productos de cajas que tengo en casa",
+      "estado": "Pendiente"
+    },
+    {
+      "fecha": "2026-11-07",
+      "tipo": "Grabar",
+      "plataforma": "tiktok",
+      "formato": "Short",
+      "titulo": "Pedir a domicilio cuando llego tarde (mi ranking de 5)",
+      "estado": "Pendiente"
+    },
+    {
+      "fecha": "2026-11-07",
+      "tipo": "Grabar",
+      "plataforma": "tiktok",
+      "formato": "Short",
+      "titulo": "Lo que cambiaría de mi casa después de 3 años viviendo sola",
+      "estado": "Pendiente"
+    },
+    {
+      "fecha": "2026-11-07",
+      "tipo": "Grabar",
+      "plataforma": "tiktok",
+      "formato": "Short",
+      "titulo": "Lo que compraría hoy si empezara de cero (y lo que no)",
+      "estado": "Pendiente"
+    },
+    {
+      "fecha": "2026-11-08",
+      "tipo": "Grabar",
+      "plataforma": "tiktok",
+      "formato": "Short",
+      "titulo": "Mi colección de chaquetas",
+      "estado": "Pendiente"
+    },
+    {
+      "fecha": "2026-11-08",
+      "tipo": "Grabar",
+      "plataforma": "tiktok",
+      "formato": "Short",
+      "titulo": "Errores que cometí en mi primer piso (no repitas el mío)",
+      "estado": "Pendiente"
+    },
+    {
+      "fecha": "2026-11-08",
+      "tipo": "Grabar",
+      "plataforma": "tiktok",
+      "formato": "Short",
+      "titulo": "Lo que hago con la nevera antes de irme de viaje (y lo que congelo)",
+      "estado": "Pendiente"
+    },
+    {
+      "fecha": "2026-11-08",
+      "tipo": "Grabar",
+      "plataforma": "tiktok",
+      "formato": "Short",
+      "titulo": "Si alguien más se pone la alarma una hora antes para dormir más",
+      "estado": "Pendiente"
+    },
+    {
+      "fecha": "2026-11-08",
+      "tipo": "Grabar",
+      "plataforma": "tiktok",
+      "formato": "Short",
+      "titulo": "Preguntas que me hacéis sobre independizarme (respondo)",
+      "estado": "Pendiente"
+    },
+    {
+      "fecha": "2026-11-08",
+      "tipo": "Grabar",
+      "plataforma": "tiktok",
+      "formato": "Short",
+      "titulo": "POV: cantando para no violentarme",
+      "estado": "Pendiente"
+    },
+    {
+      "fecha": "2026-11-09",
+      "tipo": "Publicar",
+      "plataforma": "tiktok",
+      "formato": "Short",
+      "titulo": "Comer 3 días con 20 €",
+      "estado": "Programado"
+    },
+    {
+      "fecha": "2026-11-10",
+      "tipo": "Publicar",
+      "plataforma": "tiktok",
+      "formato": "Short",
+      "titulo": "Lo que pido a domicilio cuando llego tarde y la nevera está vacía: mi ranking de 5",
+      "estado": "Programado"
+    },
+    {
+      "fecha": "2026-11-11",
+      "tipo": "Grabar",
+      "plataforma": "tiktok",
+      "formato": "Short",
+      "titulo": "Elegimos pica pica, primero, bebida y postre (con mi novia en el súper)",
+      "estado": "Pendiente"
+    },
+    {
+      "fecha": "2026-11-11",
+      "tipo": "Grabar",
+      "plataforma": "tiktok",
+      "formato": "Short",
+      "titulo": "Adivinando la película con un frame (con mi novia)",
+      "estado": "Pendiente"
+    },
+    {
+      "fecha": "2026-11-11",
+      "tipo": "Publicar",
+      "plataforma": "tiktok",
+      "formato": "Short",
+      "titulo": "Sacando productos de cajas que tengo en casa",
+      "estado": "Por decidir: TikTok, YouTube o ambas"
+    },
+    {
+      "fecha": "2026-11-12",
+      "tipo": "Publicar",
+      "plataforma": "twitch",
+      "formato": "Short",
+      "titulo": "Comentando pisos (sección)",
+      "estado": "Por decidir: vídeo de TikTok o clips de directo"
+    },
+    {
+      "fecha": "2026-11-13",
+      "tipo": "Publicar",
+      "plataforma": "tiktok",
+      "formato": "Short",
+      "titulo": "Lo que cambiaría de mi casa después de 3 años viviendo sola",
+      "estado": "Programado"
+    },
+    {
+      "fecha": "2026-11-14",
+      "tipo": "Publicar",
+      "plataforma": "tiktok",
+      "formato": "Short",
+      "titulo": "Lo que compraría hoy si empezara de cero (y lo que no)",
+      "estado": "Programado"
+    },
+    {
+      "fecha": "2026-11-15",
+      "tipo": "Publicar",
+      "plataforma": "tiktok",
+      "formato": "Short",
+      "titulo": "Mi colección de chaquetas",
+      "estado": "Programado"
+    },
+    {
+      "fecha": "2026-11-16",
+      "tipo": "Publicar",
+      "plataforma": "tiktok",
+      "formato": "Short",
+      "titulo": "Errores que cometí en mi primer piso (no repitas el mío)",
+      "estado": "Programado"
+    },
+    {
+      "fecha": "2026-11-17",
+      "tipo": "Publicar",
+      "plataforma": "tiktok",
+      "formato": "Short",
+      "titulo": "Lo que hago con la nevera antes de irme de viaje (y lo que congelo)",
+      "estado": "Programado"
+    },
+    {
+      "fecha": "2026-11-18",
+      "tipo": "Publicar",
+      "plataforma": "tiktok",
+      "formato": "Short",
+      "titulo": "Si alguien más se pone la alarma una hora antes para dormir más",
+      "estado": "Programado"
+    },
+    {
+      "fecha": "2026-11-19",
+      "tipo": "Publicar",
+      "plataforma": "twitch",
+      "formato": "Short",
+      "titulo": "Comentando pisos (sección)",
+      "estado": "Por decidir: vídeo de TikTok o clips de directo"
+    },
+    {
+      "fecha": "2026-11-20",
+      "tipo": "Publicar",
+      "plataforma": "tiktok",
+      "formato": "Short",
+      "titulo": "Preguntas que me hacéis sobre independizarme (respondo)",
+      "estado": "Programado"
+    },
+    {
+      "fecha": "2026-11-21",
+      "tipo": "Grabar",
+      "plataforma": "tiktok",
+      "formato": "Short",
+      "titulo": "Cambios para decorar el piso sin tocar nada: un zapatero en vez de zapatos tirados",
+      "estado": "Pendiente"
+    },
+    {
+      "fecha": "2026-11-21",
+      "tipo": "Grabar",
+      "plataforma": "tiktok",
+      "formato": "Short",
+      "titulo": "Lo que nadie te dice de vivir sola desde el primer día",
+      "estado": "Pendiente"
+    },
+    {
+      "fecha": "2026-11-21",
+      "tipo": "Publicar",
+      "plataforma": "tiktok",
+      "formato": "Short",
+      "titulo": "POV: cantando para no violentarme",
+      "estado": "Programado"
+    },
+    {
+      "fecha": "2026-11-22",
+      "tipo": "Grabar",
+      "plataforma": "tiktok",
+      "formato": "Long",
+      "titulo": "Housetour de mis 50 m² viviendo sola",
+      "estado": "Pendiente"
+    },
+    {
+      "fecha": "2026-11-22",
+      "tipo": "Grabar",
+      "plataforma": "tiktok",
+      "formato": "Short",
+      "titulo": "Plato en 3 minutos con lo que queda en la nevera",
+      "estado": "Pendiente"
+    },
+    {
+      "fecha": "2026-11-22",
+      "tipo": "Publicar",
+      "plataforma": "tiktok",
+      "formato": "Short",
+      "titulo": "Elegimos pica pica, primero, bebida y postre (con mi novia en el súper)",
+      "estado": "Programado"
+    },
+    {
+      "fecha": "2026-11-23",
+      "tipo": "Publicar",
+      "plataforma": "tiktok",
+      "formato": "Short",
+      "titulo": "Cambios para decorar el piso sin tocar nada: un zapatero en vez de zapatos tirados",
+      "estado": "Programado"
+    },
+    {
+      "fecha": "2026-11-24",
+      "tipo": "Publicar",
+      "plataforma": "tiktok",
+      "formato": "Short",
+      "titulo": "Lo que nadie te dice de vivir sola desde el primer día",
+      "estado": "Programado"
+    },
+    {
+      "fecha": "2026-11-25",
+      "tipo": "Publicar",
+      "plataforma": "tiktok",
+      "formato": "Long",
+      "titulo": "Housetour de mis 50 m² viviendo sola",
+      "estado": "Programado"
+    },
+    {
+      "fecha": "2026-11-26",
+      "tipo": "Publicar",
+      "plataforma": "twitch",
+      "formato": "Short",
+      "titulo": "Comentando pisos (sección)",
+      "estado": "Por decidir: vídeo de TikTok o clips de directo"
+    },
+    {
+      "fecha": "2026-11-27",
+      "tipo": "Publicar",
+      "plataforma": "tiktok",
+      "formato": "Short",
+      "titulo": "Plato en 3 minutos con lo que queda en la nevera",
+      "estado": "Programado"
+    },
+    {
+      "fecha": "2026-11-30",
+      "tipo": "Publicar",
+      "plataforma": "tiktok",
+      "formato": "Short",
+      "titulo": "Adivinando la película con un frame (con mi novia)",
+      "estado": "Programado: confirmar fecha"
+    }
+  ]
 }
