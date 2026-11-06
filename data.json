@@ -1,0 +1,22 @@
+{
+  "actualizado": "2026-11-06",
+  "plataformas": [
+    { "id": "instagram", "nombre": "Instagram", "piezas": [] },
+    { "id": "tiktok", "nombre": "TikTok", "piezas": [] },
+    { "id": "youtube", "nombre": "YouTube", "piezas": [
+      { "fecha": "2026-11-10", "formato": "Largo", "titulo": "Cuánto gasto al mes siendo independiente (cifras reales)", "estado": "Idea" },
+      { "fecha": "2026-11-12", "formato": "Short", "titulo": "El plato más barato que hago esta semana", "estado": "Idea" },
+      { "fecha": "2026-11-15", "formato": "Short", "titulo": "El error que cometí al independizarme", "estado": "Idea" },
+      { "fecha": "2026-11-17", "formato": "Largo", "titulo": "Cocino una semana con 30 €", "estado": "Idea" },
+      { "fecha": "2026-11-19", "formato": "Short", "titulo": "Arroz con sobras en 5 minutos", "estado": "Idea" },
+      { "fecha": "2026-11-22", "formato": "Short", "titulo": "Lista de la compra para independientes (con precios)", "estado": "Idea" },
+      { "fecha": "2026-11-24", "formato": "Largo", "titulo": "Equipa tu primera cocina por menos de 100 €", "estado": "Idea" },
+      { "fecha": "2026-11-26", "formato": "Short", "titulo": "Lo imprescindible para cocinar si acabas de independizarte", "estado": "Idea" },
+      { "fecha": "2026-11-29", "formato": "Short", "titulo": "Tortilla en 3 minutos", "estado": "Idea" },
+      { "fecha": "2026-12-01", "formato": "Largo", "titulo": "Piso compartido vs. piso solo: mi experiencia", "estado": "Idea" },
+      { "fecha": "2026-12-03", "formato": "Short", "titulo": "Recetas virales de TikTok: ¿valen la pena?", "estado": "Idea" },
+      { "fecha": "2026-12-06", "formato": "Short", "titulo": "Limpio mi piso en una hora", "estado": "Idea" }
+    ] },
+    { "id": "twitch", "nombre": "Twitch", "piezas": [] }
+  ]
+}

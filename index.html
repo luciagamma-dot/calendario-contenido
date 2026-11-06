@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Calendario de contenido</title>
+<style>
+:root {
+  --bg: #f5f4f0; --fg: #1c1c1a; --muted: #6b6963; --card: #ffffff; --line: #e2e0d9;
+  --ig: #d62976; --tt: #010101; --tt2: #25f4ee; --yt: #e00000; --tw: #7c3aed;
+  --chip-bg: #ffffff;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #151514; --fg: #f1f0ec; --muted: #a3a197; --card: #1f1f1c; --line: #33332e;
+    --ig: #ff6fa5; --tt: #f1f0ec; --tt2: #25f4ee; --yt: #ff7a7a; --tw: #c4b5fd;
+    --chip-bg: #1f1f1c;
+    color-scheme: dark;
+  }
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0; background: var(--bg); color: var(--fg);
+  font: 15px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  padding: 24px max(16px, env(safe-area-inset-right, 0px)) 56px max(16px, env(safe-area-inset-left, 0px));
+}
+main { max-width: 720px; margin: 0 auto; }
+h1 { font-size: 24px; margin: 0 0 4px; letter-spacing: -0.01em; }
+.intro { color: var(--muted); margin: 0 0 16px; font-size: 13px; }
+nav { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 28px; }
+nav a {
+  text-decoration: none; color: var(--fg); background: var(--chip-bg);
+  border: 1px solid var(--line); border-radius: 999px; padding: 6px 12px; font-size: 13px; font-weight: 600;
+}
+section { margin-bottom: 32px; scroll-margin-top: 16px; }
+.head {
+  display: flex; align-items: baseline; justify-content: space-between; gap: 12px;
+  border-bottom: 3px solid var(--accent); padding-bottom: 6px; margin-bottom: 12px;
+}
+.head h2 { font-size: 18px; margin: 0; color: var(--accent); letter-spacing: 0.01em; }
+.head span { color: var(--muted); font-size: 13px; font-variant-numeric: tabular-nums; }
+.ig { --accent: var(--ig); }
+.tt { --accent: var(--tt); }
+.yt { --accent: var(--yt); }
+.tw { --accent: var(--tw); }
+.list { display: grid; gap: 10px; }
+.card {
+  background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--accent);
+  border-radius: 10px; padding: 12px 14px; min-width: 0;
+}
+.meta { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.date { color: var(--muted); font-size: 13px; text-transform: capitalize; font-variant-numeric: tabular-nums; }
+.chip {
+  font-size: 11px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase;
+  padding: 2px 8px; border-radius: 999px; border: 1px solid var(--accent); color: var(--accent);
+}
+h3 { font-size: 16px; margin: 6px 0 4px; text-wrap: balance; }
+.status { color: var(--muted); font-size: 13px; }
+.empty {
+  border: 1px dashed var(--line); border-radius: 10px; padding: 16px 14px;
+  color: var(--muted); font-size: 14px;
+}
+</style>
+</head>
+<body>
+<main>
+  <h1>Calendario de contenido</h1>
+  <p class="intro">Cargando…</p>
+
+  <nav aria-label="Plataformas">
+    <a href="#instagram">Instagram</a>
+    <a href="#tiktok">TikTok</a>
+    <a href="#youtube">YouTube</a>
+    <a href="#twitch">Twitch</a>
+  </nav>
+
+  <div id="sections"></div>
+</main>
+<script>
+let PLATFORMS = [];
+
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) =>
+  ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const fmt = (iso) => new Date(iso + "T12:00:00").toLocaleDateString("es-ES", { weekday: "short", day: "numeric", month: "short" });
+
+const CLS = { instagram: "ig", tiktok: "tt", youtube: "yt", twitch: "tw" };
+function draw(data) {
+PLATFORMS = data.plataformas.map((p) => ({ id: p.id, name: p.nombre, cls: CLS[p.id], posts: p.piezas.map((x) => ({ date: x.fecha, format: x.formato, title: x.titulo, status: x.estado })) }));
+document.getElementById("sections").innerHTML = PLATFORMS.map((p) => {
+  const sorted = [...p.posts].sort((a, b) => a.date.localeCompare(b.date));
+  const body = sorted.length
+    ? `<div class="list">${sorted.map((x) => `
+        <article class="card">
+          <div class="meta">
+            <span class="date">${esc(fmt(x.date))}</span>
+            <span class="chip">${esc(x.format)}</span>
+          </div>
+          <h3>${esc(x.title)}</h3>
+          <div class="status">${esc(x.status)}</div>
+        </article>`).join("")}</div>`
+    : `<div class="empty">Todavía no hay contenido para ${esc(p.name)}.</div>`;
+  return `
+    <section id="${p.id}" class="${p.cls}">
+      <div class="head"><h2>${esc(p.name)}</h2><span>${sorted.length} ${sorted.length === 1 ? "pieza" : "piezas"}</span></div>
+      ${body}
+    </section>`;
+}).join("");
+}
+fetch("data.json?v=" + Date.now(), { cache: "no-store" })
+  .then((r) => r.json())
+  .then((d) => { draw(d); const up = document.querySelector(".intro"); if (up) up.textContent = "Actualizado el " + new Date(d.actualizado + "T12:00:00").toLocaleDateString("es-ES", { day: "numeric", month: "long", year: "numeric" }) + ". Pídele a Claude los cambios y se actualiza aquí."; })
+  .catch(() => { document.getElementById("sections").innerHTML = '<div class="empty">No se pudo cargar el calendario. Vuelve a intentarlo.</div>'; });
+</script>
+</body>
+</html>
