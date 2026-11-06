@@ -164,6 +164,14 @@
       "estado": "Por decidir: TikTok, YouTube o ambas"
     },
     {
+      "fecha": "2026-11-11",
+      "tipo": "Publicar",
+      "plataforma": "instagram",
+      "formato": "Carrusel",
+      "titulo": "Carrusel de fotos (lifestyle)",
+      "estado": "Programado · 19:30 · pendiente de fotos"
+    },
+    {
       "fecha": "2026-11-12",
       "tipo": "Publicar",
       "plataforma": "tiktok",
@@ -230,6 +238,14 @@
       "formato": "Short",
       "titulo": "Si alguien más se pone la alarma una hora antes para dormir más",
       "estado": "Programado"
+    },
+    {
+      "fecha": "2026-11-18",
+      "tipo": "Publicar",
+      "plataforma": "instagram",
+      "formato": "Carrusel",
+      "titulo": "Carrusel de fotos (lifestyle)",
+      "estado": "Programado · 19:30 · pendiente de fotos"
     },
     {
       "fecha": "2026-11-19",
@@ -342,6 +358,14 @@
       "estado": "Programado"
     },
     {
+      "fecha": "2026-11-25",
+      "tipo": "Publicar",
+      "plataforma": "instagram",
+      "formato": "Carrusel",
+      "titulo": "Carrusel de fotos (lifestyle)",
+      "estado": "Programado · 19:30 · pendiente de fotos"
+    },
+    {
       "fecha": "2026-11-26",
       "tipo": "Publicar",
       "plataforma": "tiktok",
@@ -373,6 +397,14 @@
       "formato": "Short",
       "titulo": "Regalos para independizados que hay que pedir ya para Navidad",
       "estado": "Programado"
+    },
+    {
+      "fecha": "2026-12-02",
+      "tipo": "Publicar",
+      "plataforma": "instagram",
+      "formato": "Carrusel",
+      "titulo": "Carrusel de fotos (lifestyle)",
+      "estado": "Programado · 19:30 · pendiente de fotos"
     }
   ]
 }
