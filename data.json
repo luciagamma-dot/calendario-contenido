@@ -293,6 +293,14 @@
     },
     {
       "fecha": "2026-11-22",
+      "tipo": "Grabar",
+      "plataforma": "tiktok",
+      "formato": "Short",
+      "titulo": "Regalos para independizados que hay que pedir ya para Navidad",
+      "estado": "Pendiente"
+    },
+    {
+      "fecha": "2026-11-22",
       "tipo": "Publicar",
       "plataforma": "tiktok",
       "formato": "Short",
@@ -364,7 +372,7 @@
       "plataforma": "tiktok",
       "formato": "Short",
       "titulo": "Regalos para independizados que hay que pedir ya para Navidad",
-      "estado": "Idea · falta fecha de grabación"
+      "estado": "Programado"
     }
   ]
 }
