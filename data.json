@@ -25,7 +25,8 @@
       "plataforma": "tiktok",
       "formato": "Short",
       "titulo": "Comer 3 días con 20 €",
-      "estado": "Pendiente"
+      "estado": "Pendiente",
+      "guion": "guion-comer-3-dias"
     },
     {
       "fecha": "2026-11-07",
@@ -49,7 +50,8 @@
       "plataforma": "tiktok",
       "formato": "Short",
       "titulo": "Lo que cambiaría de mi casa después de 3 años viviendo sola",
-      "estado": "Pendiente"
+      "estado": "Pendiente",
+      "guion": "guion-cambiaria"
     },
     {
       "fecha": "2026-11-07",
@@ -57,7 +59,8 @@
       "plataforma": "tiktok",
       "formato": "Short",
       "titulo": "Lo que compraría hoy si empezara de cero (y lo que no)",
-      "estado": "Pendiente"
+      "estado": "Pendiente",
+      "guion": "guion-compraria"
     },
     {
       "fecha": "2026-11-08",
@@ -73,7 +76,8 @@
       "plataforma": "tiktok",
       "formato": "Short",
       "titulo": "Errores que cometí en mi primer piso (no repitas el mío)",
-      "estado": "Pendiente"
+      "estado": "Pendiente",
+      "guion": "guion-errores"
     },
     {
       "fecha": "2026-11-08",
@@ -81,7 +85,8 @@
       "plataforma": "tiktok",
       "formato": "Short",
       "titulo": "Lo que hago con la nevera antes de irme de viaje (y lo que congelo)",
-      "estado": "Pendiente"
+      "estado": "Pendiente",
+      "guion": "guion-nevera"
     },
     {
       "fecha": "2026-11-08",
@@ -97,7 +102,8 @@
       "plataforma": "tiktok",
       "formato": "Short",
       "titulo": "Preguntas que me hacéis sobre independizarme (respondo)",
-      "estado": "Pendiente"
+      "estado": "Pendiente",
+      "guion": "guion-preguntas"
     },
     {
       "fecha": "2026-11-08",
@@ -113,7 +119,8 @@
       "plataforma": "tiktok",
       "formato": "Short",
       "titulo": "Comer 3 días con 20 €",
-      "estado": "Programado"
+      "estado": "Programado",
+      "guion": "guion-comer-3-dias"
     },
     {
       "fecha": "2026-11-10",
@@ -129,7 +136,8 @@
       "plataforma": "tiktok",
       "formato": "Short",
       "titulo": "Lo que pido a domicilio cuando llego tarde y la nevera está vacía: mi ranking de 5",
-      "estado": "Programado"
+      "estado": "Programado",
+      "guion": "guion-domicilio"
     },
     {
       "fecha": "2026-11-11",
@@ -169,7 +177,8 @@
       "plataforma": "tiktok",
       "formato": "Short",
       "titulo": "Lo que cambiaría de mi casa después de 3 años viviendo sola",
-      "estado": "Programado"
+      "estado": "Programado",
+      "guion": "guion-cambiaria"
     },
     {
       "fecha": "2026-11-14",
@@ -177,7 +186,8 @@
       "plataforma": "tiktok",
       "formato": "Short",
       "titulo": "Lo que compraría hoy si empezara de cero (y lo que no)",
-      "estado": "Programado"
+      "estado": "Programado",
+      "guion": "guion-compraria"
     },
     {
       "fecha": "2026-11-15",
@@ -193,7 +203,8 @@
       "plataforma": "tiktok",
       "formato": "Short",
       "titulo": "Errores que cometí en mi primer piso (no repitas el mío)",
-      "estado": "Programado"
+      "estado": "Programado",
+      "guion": "guion-errores"
     },
     {
       "fecha": "2026-11-17",
@@ -209,7 +220,8 @@
       "plataforma": "tiktok",
       "formato": "Short",
       "titulo": "Lo que hago con la nevera antes de irme de viaje (y lo que congelo)",
-      "estado": "Programado"
+      "estado": "Programado",
+      "guion": "guion-nevera"
     },
     {
       "fecha": "2026-11-18",
@@ -233,7 +245,8 @@
       "plataforma": "tiktok",
       "formato": "Short",
       "titulo": "Preguntas que me hacéis sobre independizarme (respondo)",
-      "estado": "Programado"
+      "estado": "Programado",
+      "guion": "guion-preguntas"
     },
     {
       "fecha": "2026-11-21",
@@ -241,7 +254,8 @@
       "plataforma": "tiktok",
       "formato": "Short",
       "titulo": "Cambios para decorar el piso sin tocar nada: un zapatero en vez de zapatos tirados",
-      "estado": "Pendiente"
+      "estado": "Pendiente",
+      "guion": "guion-decorar"
     },
     {
       "fecha": "2026-11-21",
@@ -249,7 +263,8 @@
       "plataforma": "tiktok",
       "formato": "Short",
       "titulo": "Lo que nadie te dice de vivir sola desde el primer día",
-      "estado": "Pendiente"
+      "estado": "Pendiente",
+      "guion": "guion-vivir-sola"
     },
     {
       "fecha": "2026-11-21",
@@ -273,7 +288,8 @@
       "plataforma": "tiktok",
       "formato": "Short",
       "titulo": "Plato en 3 minutos con lo que queda en la nevera",
-      "estado": "Pendiente"
+      "estado": "Pendiente",
+      "guion": "guion-plato-3min"
     },
     {
       "fecha": "2026-11-22",
@@ -289,7 +305,8 @@
       "plataforma": "tiktok",
       "formato": "Short",
       "titulo": "Cambios para decorar el piso sin tocar nada: un zapatero en vez de zapatos tirados",
-      "estado": "Programado"
+      "estado": "Programado",
+      "guion": "guion-decorar"
     },
     {
       "fecha": "2026-11-24",
@@ -305,7 +322,8 @@
       "plataforma": "tiktok",
       "formato": "Short",
       "titulo": "Lo que nadie te dice de vivir sola desde el primer día",
-      "estado": "Programado"
+      "estado": "Programado",
+      "guion": "guion-vivir-sola"
     },
     {
       "fecha": "2026-11-25",
@@ -329,7 +347,8 @@
       "plataforma": "tiktok",
       "formato": "Short",
       "titulo": "Plato en 3 minutos con lo que queda en la nevera",
-      "estado": "Programado"
+      "estado": "Programado",
+      "guion": "guion-plato-3min"
     },
     {
       "fecha": "2026-11-30",

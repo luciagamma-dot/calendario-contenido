@@ -82,6 +82,15 @@ h1 { font-size: 22px; margin: 0; letter-spacing: -0.01em; }
 .task .t { font-size: 14px; margin: 4px 0 2px; text-wrap: balance; }
 .task .s { font-size: 12px; color: var(--muted); }
 .none { color: var(--muted); font-size: 14px; margin: 4px 0 0; }
+.guion-btn {
+  font: inherit; font-size: 12px; font-weight: 600; color: var(--fg); background: var(--bg);
+  border: 1px solid var(--line); border-radius: 8px; padding: 4px 10px; margin-top: 6px; cursor: pointer;
+}
+.guion {
+  white-space: pre-wrap; font-size: 13px; line-height: 1.5; background: var(--bg);
+  border: 1px solid var(--line); border-radius: 8px; padding: 10px; margin-top: 8px; font-family: inherit;
+}
+.guion[hidden] { display: none; }
 </style>
 </head>
 <body>
@@ -174,10 +183,31 @@ function renderDay() {
         <div class="top"><span class="tag">${esc(t.tipo)}</span><span>${esc(PNAME[t.plataforma] || t.plataforma)}</span><span>· ${esc(t.formato)}</span></div>
         <div class="t">${esc(t.titulo)}</div>
         <div class="s">${esc(t.estado)}</div>
+        ${t.guion ? `<button class="guion-btn" data-guion="${esc(t.guion)}">Ver guion</button><div class="guion" hidden></div>` : ""}
       </article>`).join("")
     : '<p class="none">No hay tareas este día.</p>';
   box.innerHTML = `<h2>${esc(title)}</h2>${body}`;
 }
+
+document.getElementById("day").addEventListener("click", async (e) => {
+  const btn = e.target.closest("button[data-guion]");
+  if (!btn) return;
+  const box = btn.parentElement.querySelector(".guion");
+  if (!box.hidden) { box.hidden = true; btn.textContent = "Ver guion"; return; }
+  btn.textContent = "Ocultar guion";
+  if (!box.textContent) {
+    box.textContent = "Cargando guion…";
+    box.hidden = false;
+    try {
+      const r = await fetch("guiones/" + btn.dataset.guion + ".txt?v=" + Date.now(), { cache: "no-store" });
+      if (!r.ok) throw new Error(r.status);
+      box.textContent = await r.text();
+    } catch (err) {
+      box.textContent = "No se pudo cargar el guion.";
+    }
+  }
+  box.hidden = false;
+});
 
 document.getElementById("prev").addEventListener("click", () => shift(-1));
 document.getElementById("next").addEventListener("click", () => shift(1));
