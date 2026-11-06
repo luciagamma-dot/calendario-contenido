@@ -117,6 +117,14 @@
     },
     {
       "fecha": "2026-11-10",
+      "tipo": "Directo",
+      "plataforma": "twitch",
+      "formato": "Directo",
+      "titulo": "Comentando pisos (directo)",
+      "estado": "Programado · 21:00–22:30"
+    },
+    {
+      "fecha": "2026-11-10",
       "tipo": "Publicar",
       "plataforma": "tiktok",
       "formato": "Short",
@@ -150,10 +158,10 @@
     {
       "fecha": "2026-11-12",
       "tipo": "Publicar",
-      "plataforma": "twitch",
+      "plataforma": "tiktok",
       "formato": "Short",
-      "titulo": "Comentando pisos (sección)",
-      "estado": "Por decidir: vídeo de TikTok o clips de directo"
+      "titulo": "Comentando pisos (clips del directo)",
+      "estado": "Clips del directo del martes"
     },
     {
       "fecha": "2026-11-13",
@@ -189,6 +197,14 @@
     },
     {
       "fecha": "2026-11-17",
+      "tipo": "Directo",
+      "plataforma": "twitch",
+      "formato": "Directo",
+      "titulo": "Comentando pisos (directo)",
+      "estado": "Programado · 21:00–22:30"
+    },
+    {
+      "fecha": "2026-11-17",
       "tipo": "Publicar",
       "plataforma": "tiktok",
       "formato": "Short",
@@ -206,10 +222,10 @@
     {
       "fecha": "2026-11-19",
       "tipo": "Publicar",
-      "plataforma": "twitch",
+      "plataforma": "tiktok",
       "formato": "Short",
-      "titulo": "Comentando pisos (sección)",
-      "estado": "Por decidir: vídeo de TikTok o clips de directo"
+      "titulo": "Comentando pisos (clips del directo)",
+      "estado": "Clips del directo del martes"
     },
     {
       "fecha": "2026-11-20",
@@ -277,6 +293,14 @@
     },
     {
       "fecha": "2026-11-24",
+      "tipo": "Directo",
+      "plataforma": "twitch",
+      "formato": "Directo",
+      "titulo": "Comentando pisos (directo)",
+      "estado": "Programado · 21:00–22:30"
+    },
+    {
+      "fecha": "2026-11-24",
       "tipo": "Publicar",
       "plataforma": "tiktok",
       "formato": "Short",
@@ -294,10 +318,10 @@
     {
       "fecha": "2026-11-26",
       "tipo": "Publicar",
-      "plataforma": "twitch",
+      "plataforma": "tiktok",
       "formato": "Short",
-      "titulo": "Comentando pisos (sección)",
-      "estado": "Por decidir: vídeo de TikTok o clips de directo"
+      "titulo": "Comentando pisos (clips del directo)",
+      "estado": "Clips del directo del martes"
     },
     {
       "fecha": "2026-11-27",
