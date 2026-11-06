@@ -7,14 +7,14 @@
 <style>
 :root {
   --bg: #f5f4f0; --fg: #1c1c1a; --muted: #6b6963; --card: #ffffff; --line: #e2e0d9;
-  --ig: #d62976; --tt: #0b0b0b; --tt2: #25f4ee; --yt: #e00000; --tw: #7c3aed;
+  --ig: #d62976; --tt: #111111; --yt: #e00000; --tw: #7c3aed; --sel: #1c1c1a; --selfg: #ffffff;
   --today: #fde68a;
   color-scheme: light;
 }
 @media (prefers-color-scheme: dark) {
   :root {
     --bg: #151514; --fg: #f1f0ec; --muted: #a3a197; --card: #1f1f1c; --line: #33332e;
-    --ig: #ff6fa5; --tt: #f1f0ec; --tt2: #25f4ee; --yt: #ff7a7a; --tw: #c4b5fd;
+    --ig: #ff6fa5; --tt: #f1f0ec; --yt: #ff7a7a; --tw: #c4b5fd; --sel: #f1f0ec; --selfg: #151514;
     --today: #6b5a1e;
     color-scheme: dark;
   }
@@ -22,146 +22,179 @@
 * { box-sizing: border-box; }
 body {
   margin: 0; background: var(--bg); color: var(--fg);
-  font: 14px/1.4 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  padding: 20px max(12px, env(safe-area-inset-right, 0px)) 48px max(12px, env(safe-area-inset-left, 0px));
+  font: 15px/1.4 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  padding: 20px max(14px, env(safe-area-inset-right, 0px)) 48px max(14px, env(safe-area-inset-left, 0px));
 }
-main { max-width: 1280px; margin: 0 auto; }
-.top { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-bottom: 16px; }
+main { max-width: 480px; margin: 0 auto; }
 h1 { font-size: 22px; margin: 0; letter-spacing: -0.01em; }
-.intro { color: var(--muted); font-size: 13px; margin: 2px 0 0; }
-.month { display: flex; align-items: center; gap: 8px; }
-.month button {
-  font: inherit; color: var(--fg); background: var(--card); border: 1px solid var(--line);
-  border-radius: 8px; width: 34px; height: 34px; cursor: pointer;
+.intro { color: var(--muted); font-size: 13px; margin: 2px 0 14px; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 12px; }
+.head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
+.head strong { text-transform: capitalize; font-size: 16px; }
+.head button {
+  font: inherit; color: var(--fg); background: transparent; border: 0; border-radius: 8px;
+  width: 36px; height: 36px; cursor: pointer; font-size: 20px;
 }
-.month strong { min-width: 150px; text-align: center; text-transform: capitalize; font-variant-numeric: tabular-nums; }
-.board { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; align-items: start; }
-@media (max-width: 1000px) { .board { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
-@media (max-width: 560px) { .board { grid-template-columns: minmax(0, 1fr); } }
-.col {
-  background: var(--card); border: 1px solid var(--line); border-top: 4px solid var(--accent);
-  border-radius: 12px; padding: 12px; min-width: 0;
+.dow, .grid { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); }
+.dow span { text-align: center; font-size: 11px; color: var(--muted); font-weight: 600; padding: 4px 0; }
+.cell {
+  appearance: none; border: 0; background: transparent; color: var(--fg); font: inherit;
+  height: 46px; display: flex; flex-direction: column; align-items: center; gap: 3px; padding-top: 5px;
+  border-radius: 10px; cursor: pointer; font-variant-numeric: tabular-nums;
 }
-.col h2 { font-size: 16px; margin: 0 0 8px; color: var(--accent); }
-.dow, .grid { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 3px; }
-.dow span { text-align: center; font-size: 11px; color: var(--muted); font-weight: 600; padding-bottom: 2px; }
-.day {
-  min-height: 38px; border: 1px solid var(--line); border-radius: 6px; padding: 3px 3px 4px;
-  font-size: 11px; font-variant-numeric: tabular-nums; display: flex; flex-direction: column; gap: 2px;
-  min-width: 0;
+.cell.out { color: var(--muted); opacity: 0.45; }
+.cell.today .num { box-shadow: inset 0 0 0 2px var(--fg); }
+.cell.sel { background: var(--sel); color: var(--selfg); }
+.cell.sel .num { box-shadow: none; }
+.num {
+  width: 26px; height: 26px; border-radius: 50%; display: grid; place-items: center; font-size: 14px;
 }
-.day.blank { border-color: transparent; }
-.day.today { background: var(--today); }
-.day .n { color: var(--muted); }
-.dots { display: flex; gap: 2px; flex-wrap: wrap; }
-.dot { width: 7px; height: 7px; border-radius: 50%; background: var(--accent); }
-.dot.short { background: transparent; border: 2px solid var(--accent); width: 6px; height: 6px; }
-.legend { color: var(--muted); font-size: 11px; margin: 6px 0 10px; }
-.list { list-style: none; margin: 12px 0 0; padding: 0; display: grid; gap: 8px; }
-.list li { border-top: 1px solid var(--line); padding-top: 8px; min-width: 0; }
-.list .d { color: var(--muted); font-size: 12px; text-transform: capitalize; font-variant-numeric: tabular-nums; }
-.list .t { font-size: 13px; text-wrap: balance; margin: 2px 0; }
-.list .s { color: var(--muted); font-size: 12px; }
-.none { color: var(--muted); font-size: 13px; margin: 12px 0 0; }
+.dots { display: flex; gap: 3px; height: 6px; }
+.dot { width: 6px; height: 6px; border-radius: 50%; }
+.dot.rec { background: transparent; border: 1.5px solid currentColor; }
+.plat-instagram { background: var(--ig); }
+.plat-tiktok { background: var(--tt); }
+.plat-youtube { background: var(--yt); }
+.plat-twitch { background: var(--tw); }
+.plat-instagram.rec { background: transparent; border-color: var(--ig); }
+.plat-tiktok.rec { background: transparent; border-color: var(--tt); }
+.plat-youtube.rec { background: transparent; border-color: var(--yt); }
+.plat-twitch.rec { background: transparent; border-color: var(--tw); }
+.legend { font-size: 12px; color: var(--muted); margin: 10px 2px 0; display: flex; gap: 12px; flex-wrap: wrap; }
+.legend span { display: inline-flex; align-items: center; gap: 5px; }
+.day { margin-top: 14px; }
+.day h2 { font-size: 16px; margin: 0 0 8px; text-transform: capitalize; }
+.task {
+  background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+  padding: 10px 12px; margin-bottom: 8px; border-left: 4px solid var(--accent);
+}
+.task .top { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; font-size: 12px; color: var(--muted); }
+.task .tag {
+  font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; font-size: 11px;
+  color: var(--fg); background: var(--line); border-radius: 6px; padding: 1px 6px;
+}
+.task .t { font-size: 14px; margin: 4px 0 2px; text-wrap: balance; }
+.task .s { font-size: 12px; color: var(--muted); }
+.none { color: var(--muted); font-size: 14px; margin: 4px 0 0; }
 </style>
 </head>
 <body>
 <main>
-  <div class="top">
-    <div>
-      <h1>Calendario de contenido</h1>
-      <p class="intro" id="intro">Cargando…</p>
-    </div>
-    <div class="month">
+  <h1>Calendario de contenido</h1>
+  <p class="intro" id="intro">Cargando…</p>
+
+  <section class="card" aria-label="Calendario">
+    <div class="head">
       <button id="prev" aria-label="Mes anterior">‹</button>
       <strong id="label"></strong>
       <button id="next" aria-label="Mes siguiente">›</button>
     </div>
-  </div>
-  <div class="board" id="board"></div>
+    <div class="dow"><span>L</span><span>M</span><span>X</span><span>J</span><span>V</span><span>S</span><span>D</span></div>
+    <div class="grid" id="grid"></div>
+    <div class="legend">
+      <span><i class="dot plat-instagram"></i>Instagram</span>
+      <span><i class="dot plat-tiktok"></i>TikTok</span>
+      <span><i class="dot plat-youtube"></i>YouTube</span>
+      <span><i class="dot plat-twitch"></i>Twitch</span>
+      <span><i class="dot rec" style="color:var(--muted)"></i>Grabar (hueco) · Publicar (lleno)</span>
+    </div>
+  </section>
+
+  <section class="day" id="day" aria-live="polite"></section>
 </main>
 <script>
-const CLS = { instagram: "ig", tiktok: "tt", youtube: "yt", twitch: "tw" };
 const MONTHS = ["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"];
-let PLATFORMS = [];
+const PNAME = { instagram: "Instagram", tiktok: "TikTok", youtube: "YouTube", twitch: "Twitch" };
+const PCOLOR = { instagram: "var(--ig)", tiktok: "var(--tt)", youtube: "var(--yt)", twitch: "var(--tw)" };
+let TASKS = [];
+let PLAT = [];
 let view = { y: 2026, m: 10 };
+let selected = null;
 
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) =>
   ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const pad = (n) => String(n).padStart(2, "0");
-const fmtDate = (iso) => new Date(iso + "T12:00:00").toLocaleDateString("es-ES", { weekday: "short", day: "numeric", month: "short" });
+const iso = (y, m, d) => y + "-" + pad(m + 1) + "-" + pad(d);
+const todayIso = () => { const n = new Date(); return iso(n.getFullYear(), n.getMonth(), n.getDate()); };
 
 function shift(delta) {
   let m = view.m + delta, y = view.y;
   while (m < 0) { m += 12; y--; }
   while (m > 11) { m -= 12; y++; }
   view = { y, m };
-  render();
+  renderGrid();
 }
 
-function column(p) {
-  const y = view.y, m = view.m;
-  const first = new Date(y, m, 1);
-  const offset = (first.getDay() + 6) % 7;
-  const days = new Date(y, m + 1, 0).getDate();
-  const now = new Date();
-  const todayIso = now.getFullYear() + "-" + pad(now.getMonth() + 1) + "-" + pad(now.getDate());
-
-  const monthPosts = p.posts.filter((x) => x.date.startsWith(y + "-" + pad(m + 1)))
-    .sort((a, b) => a.date.localeCompare(b.date));
-
-  let cells = "";
-  for (let i = 0; i < offset; i++) cells += '<div class="day blank"></div>';
-  for (let d = 1; d <= days; d++) {
-    const iso = y + "-" + pad(m + 1) + "-" + pad(d);
-    const here = p.posts.filter((x) => x.date === iso);
-    const dots = here.map((x) => `<span class="dot ${x.format === "Largo" ? "" : "short"}" title="${esc(x.title)}"></span>`).join("");
-    cells += `<div class="day${iso === todayIso ? " today" : ""}" title="${esc(here.map((x) => x.title).join(" · "))}"><span class="n">${d}</span><div class="dots">${dots}</div></div>`;
-  }
-
-  const list = monthPosts.length
-    ? `<ul class="list">${monthPosts.map((x) => `
-        <li>
-          <div class="d">${esc(fmtDate(x.date))} · ${esc(x.format)}</div>
-          <div class="t">${esc(x.title)}</div>
-          <div class="s">${esc(x.status)}</div>
-        </li>`).join("")}</ul>`
-    : '<p class="none">Sin contenido este mes.</p>';
-
-  return `
-    <section class="col ${CLS[p.id] || ""}" aria-label="${esc(p.name)}">
-      <h2>${esc(p.name)}</h2>
-      <div class="dow">${["L","M","X","J","V","S","D"].map((d) => `<span>${d}</span>`).join("")}</div>
-      <div class="grid">${cells}</div>
-      <p class="legend">● Largo &nbsp; ○ Short</p>
-      ${list}
-    </section>`;
-}
-
-function render() {
+function renderGrid() {
   document.getElementById("label").textContent = MONTHS[view.m] + " " + view.y;
-  document.getElementById("board").innerHTML = PLATFORMS.map(column).join("");
+  const first = new Date(view.y, view.m, 1);
+  const offset = (first.getDay() + 6) % 7;
+  const days = new Date(view.y, view.m + 1, 0).getDate();
+  const prevDays = new Date(view.y, view.m, 0).getDate();
+  const today = todayIso();
+  let html = "";
+  const total = Math.ceil((offset + days) / 7) * 7;
+  for (let i = 0; i < total; i++) {
+    let y = view.y, m = view.m, d;
+    let out = false;
+    if (i < offset) { d = prevDays - offset + 1 + i; m = view.m - 1; out = true; }
+    else if (i >= offset + days) { d = i - offset - days + 1; m = view.m + 1; out = true; }
+    else d = i - offset + 1;
+    if (m < 0) { m = 11; y--; } else if (m > 11) { m = 0; y++; }
+    const key = iso(y, m, d);
+    const dayTasks = TASKS.filter((t) => t.fecha === key);
+    const dots = dayTasks.slice(0, 6).map((t) =>
+      `<i class="dot plat-${t.plataforma}${t.tipo === "Grabar" ? " rec" : ""}"></i>`).join("");
+    html += `<button class="cell${out ? " out" : ""}${key === selected ? " sel" : ""}" data-date="${key}" aria-label="${d} ${MONTHS[m]}, ${dayTasks.length} tareas">
+      <span class="num"${key === today ? ' style="font-weight:700"' : ""}>${d}</span>
+      <span class="dots">${dots}</span>
+    </button>`;
+  }
+  document.getElementById("grid").innerHTML = html;
+}
+
+function renderDay() {
+  const box = document.getElementById("day");
+  if (!selected) { box.innerHTML = '<p class="none">Toca un día para ver sus tareas.</p>'; return; }
+  const [y, m, d] = selected.split("-").map(Number);
+  const title = new Date(y, m - 1, d, 12).toLocaleDateString("es-ES", { weekday: "long", day: "numeric", month: "long" });
+  const list = TASKS.filter((t) => t.fecha === selected)
+    .sort((a, b) => (a.tipo === b.tipo ? a.plataforma.localeCompare(b.plataforma) : a.tipo === "Grabar" ? -1 : 1));
+  const body = list.length
+    ? list.map((t) => `
+      <article class="task" style="--accent:${PCOLOR[t.plataforma]}">
+        <div class="top"><span class="tag">${esc(t.tipo)}</span><span>${esc(PNAME[t.plataforma] || t.plataforma)}</span><span>· ${esc(t.formato)}</span></div>
+        <div class="t">${esc(t.titulo)}</div>
+        <div class="s">${esc(t.estado)}</div>
+      </article>`).join("")
+    : '<p class="none">No hay tareas este día.</p>';
+  box.innerHTML = `<h2>${esc(title)}</h2>${body}`;
 }
 
 document.getElementById("prev").addEventListener("click", () => shift(-1));
 document.getElementById("next").addEventListener("click", () => shift(1));
+document.getElementById("grid").addEventListener("click", (e) => {
+  const b = e.target.closest("button[data-date]");
+  if (!b) return;
+  selected = b.dataset.date;
+  renderGrid();
+  renderDay();
+});
 
 fetch("data.json?v=" + Date.now(), { cache: "no-store" })
   .then((r) => r.json())
   .then((d) => {
-    PLATFORMS = d.plataformas.map((p) => ({
-      id: p.id,
-      name: p.nombre,
-      posts: p.piezas.map((x) => ({ date: x.fecha, format: x.formato, title: x.titulo, status: x.estado })),
-    }));
-    const dates = PLATFORMS.flatMap((p) => p.posts.map((x) => x.date)).sort();
+    TASKS = d.tareas || [];
+    PLAT = d.plataformas || [];
+    const dates = TASKS.map((t) => t.fecha).sort();
     if (dates.length) {
       const [yy, mm] = dates[0].split("-").map(Number);
       view = { y: yy, m: mm - 1 };
     }
     document.getElementById("intro").textContent =
       "Actualizado el " + new Date(d.actualizado + "T12:00:00").toLocaleDateString("es-ES", { day: "numeric", month: "long", year: "numeric" }) + ".";
-    render();
+    renderGrid();
+    renderDay();
   })
   .catch(() => {
     document.getElementById("intro").textContent = "No se pudo cargar el calendario. Vuelve a intentarlo.";
