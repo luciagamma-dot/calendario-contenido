@@ -114,6 +114,22 @@
       "estado": "Pendiente"
     },
     {
+      "fecha": "2026-11-08",
+      "tipo": "Grabar",
+      "plataforma": "youtube",
+      "formato": "Largo",
+      "titulo": "Cuanto gasto en un mes viviendo sola en España. Todos mis gastos",
+      "estado": "Grabar en horizontal (16:9) · editar el 9 nov · publicar el 10 a las 15:00"
+    },
+    {
+      "fecha": "2026-11-09",
+      "tipo": "Grabar",
+      "plataforma": "youtube",
+      "formato": "Largo",
+      "titulo": "10 cosas que necesitas al independizarte por primera vez",
+      "estado": "Grabar en horizontal (16:9) · editar el 10–11 nov · publicar el 12 a las 15:00"
+    },
+    {
       "fecha": "2026-11-09",
       "tipo": "Publicar",
       "plataforma": "tiktok",
@@ -171,8 +187,8 @@
       "tipo": "Publicar",
       "plataforma": "youtube",
       "formato": "Short",
-      "titulo": "Lo que pido a domicilio cuando llego tarde y la nevera está vacía: mi ranking de 5",
-      "estado": "Short · mismo vídeo que TikTok · Programado",
+      "titulo": "Cuanto gasto en un mes viviendo sola en España. Todos mis gastos",
+      "estado": "Programado · 15:00 · grabar 8 nov, editar 9 nov",
       "guion": "guion-domicilio"
     },
     {
@@ -180,8 +196,8 @@
       "tipo": "Publicar",
       "plataforma": "youtube",
       "formato": "Largo",
-      "titulo": "Vídeo largo de YouTube (tema por decidir)",
-      "estado": "Publicar a las 15:00 · tema por decidir"
+      "titulo": "Cuanto gasto en un mes viviendo sola en España. Todos mis gastos",
+      "estado": "Programado · 15:00 · grabar 8 nov, editar 9 nov"
     },
     {
       "fecha": "2026-11-11",
@@ -236,16 +252,16 @@
       "tipo": "Publicar",
       "plataforma": "youtube",
       "formato": "Short",
-      "titulo": "Comentando pisos (clips del directo)",
-      "estado": "Short · mismo vídeo que TikTok · Clips del directo del martes"
+      "titulo": "10 cosas que necesitas al independizarte por primera vez",
+      "estado": "Programado · 15:00 · grabar 9 nov, editar 10–11 nov"
     },
     {
       "fecha": "2026-11-12",
       "tipo": "Publicar",
       "plataforma": "youtube",
       "formato": "Largo",
-      "titulo": "Vídeo largo de YouTube (tema por decidir)",
-      "estado": "Publicar a las 15:00 · tema por decidir"
+      "titulo": "10 cosas que necesitas al independizarte por primera vez",
+      "estado": "Programado · 15:00 · grabar 9 nov, editar 10–11 nov"
     },
     {
       "fecha": "2026-11-13",
