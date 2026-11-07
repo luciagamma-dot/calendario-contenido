@@ -169,14 +169,6 @@
       "tipo": "Publicar",
       "plataforma": "youtube",
       "formato": "Largo",
-      "titulo": "Cuanto gasto en un mes viviendo sola en España. Todos mis gastos",
-      "estado": "Programado · 15:00 · grabar 8 nov, editar 9 nov"
-    },
-    {
-      "fecha": "2026-11-10",
-      "tipo": "Publicar",
-      "plataforma": "youtube",
-      "formato": "Largo",
       "titulo": "Sacando productos de cajas que tengo en casa",
       "estado": "Programado · vídeo largo · 15:00"
     },
@@ -245,6 +237,14 @@
       "formato": "Carrusel",
       "titulo": "Carrusel de fotos (lifestyle)",
       "estado": "Programado · 19:30 · pendiente de fotos"
+    },
+    {
+      "fecha": "2026-11-11",
+      "tipo": "Publicar",
+      "plataforma": "youtube",
+      "formato": "Short",
+      "titulo": "Lo que pido a domicilio cuando llego tarde y la nevera está vacía: mi ranking de 5",
+      "estado": "Short · mismo vídeo que TikTok · Programado"
     },
     {
       "fecha": "2026-11-12",
