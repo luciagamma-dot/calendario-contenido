@@ -176,6 +176,14 @@
       "guion": "guion-domicilio"
     },
     {
+      "fecha": "2026-11-10",
+      "tipo": "Publicar",
+      "plataforma": "youtube",
+      "formato": "Largo",
+      "titulo": "Vídeo largo de YouTube (tema por decidir)",
+      "estado": "Publicar a las 15:00 · tema por decidir"
+    },
+    {
       "fecha": "2026-11-11",
       "tipo": "Grabar",
       "plataforma": "tiktok",
@@ -230,6 +238,14 @@
       "formato": "Short",
       "titulo": "Comentando pisos (clips del directo)",
       "estado": "Short · mismo vídeo que TikTok · Clips del directo del martes"
+    },
+    {
+      "fecha": "2026-11-12",
+      "tipo": "Publicar",
+      "plataforma": "youtube",
+      "formato": "Largo",
+      "titulo": "Vídeo largo de YouTube (tema por decidir)",
+      "estado": "Publicar a las 15:00 · tema por decidir"
     },
     {
       "fecha": "2026-11-13",
@@ -372,6 +388,14 @@
       "guion": "guion-nevera"
     },
     {
+      "fecha": "2026-11-17",
+      "tipo": "Publicar",
+      "plataforma": "youtube",
+      "formato": "Largo",
+      "titulo": "Vídeo largo de YouTube (tema por decidir)",
+      "estado": "Publicar a las 15:00 · tema por decidir"
+    },
+    {
       "fecha": "2026-11-18",
       "tipo": "Publicar",
       "plataforma": "tiktok",
@@ -426,6 +450,14 @@
       "formato": "Short",
       "titulo": "Comentando pisos (clips del directo)",
       "estado": "Short · mismo vídeo que TikTok · Clips del directo del martes"
+    },
+    {
+      "fecha": "2026-11-19",
+      "tipo": "Publicar",
+      "plataforma": "youtube",
+      "formato": "Largo",
+      "titulo": "Vídeo largo de YouTube (tema por decidir)",
+      "estado": "Publicar a las 15:00 · tema por decidir"
     },
     {
       "fecha": "2026-11-20",
@@ -606,6 +638,14 @@
       "titulo": "Lo que nadie te dice de vivir sola desde el primer día",
       "estado": "Short · mismo vídeo que TikTok · Programado",
       "guion": "guion-vivir-sola"
+    },
+    {
+      "fecha": "2026-11-24",
+      "tipo": "Publicar",
+      "plataforma": "youtube",
+      "formato": "Largo",
+      "titulo": "Vídeo largo de YouTube (tema por decidir)",
+      "estado": "Publicar a las 15:00 · tema por decidir"
     },
     {
       "fecha": "2026-11-25",
@@ -672,6 +712,14 @@
       "estado": "Short · mismo vídeo que TikTok · Clips del directo del martes"
     },
     {
+      "fecha": "2026-11-26",
+      "tipo": "Publicar",
+      "plataforma": "youtube",
+      "formato": "Largo",
+      "titulo": "Vídeo largo de YouTube (tema por decidir)",
+      "estado": "Publicar a las 15:00 · tema por decidir"
+    },
+    {
       "fecha": "2026-11-27",
       "tipo": "Publicar",
       "plataforma": "tiktok",
@@ -747,12 +795,28 @@
       "estado": "Short · mismo vídeo que TikTok · Programado"
     },
     {
+      "fecha": "2026-12-01",
+      "tipo": "Publicar",
+      "plataforma": "youtube",
+      "formato": "Largo",
+      "titulo": "Vídeo largo de YouTube (tema por decidir)",
+      "estado": "Publicar a las 15:00 · tema por decidir"
+    },
+    {
       "fecha": "2026-12-02",
       "tipo": "Publicar",
       "plataforma": "instagram",
       "formato": "Carrusel",
       "titulo": "Carrusel de fotos (lifestyle)",
       "estado": "Programado · 19:30 · pendiente de fotos"
+    },
+    {
+      "fecha": "2026-12-03",
+      "tipo": "Publicar",
+      "plataforma": "youtube",
+      "formato": "Largo",
+      "titulo": "Vídeo largo de YouTube (tema por decidir)",
+      "estado": "Publicar a las 15:00 · tema por decidir"
     }
   ]
 }
