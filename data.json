@@ -22,15 +22,6 @@
     {
       "fecha": "2026-11-07",
       "tipo": "Grabar",
-      "plataforma": "tiktok",
-      "formato": "Short",
-      "titulo": "Comer 3 días con 20 €",
-      "estado": "Pendiente",
-      "guion": "guion-comer-3-dias"
-    },
-    {
-      "fecha": "2026-11-07",
-      "tipo": "Grabar",
       "plataforma": "youtube",
       "formato": "Largo",
       "titulo": "Sacando productos de cajas que tengo en casa",
@@ -38,7 +29,16 @@
       "hecho": true
     },
     {
-      "fecha": "2026-11-07",
+      "fecha": "2026-11-08",
+      "tipo": "Grabar",
+      "plataforma": "tiktok",
+      "formato": "Short",
+      "titulo": "Comer 3 días con 20 €",
+      "estado": "Pendiente",
+      "guion": "guion-comer-3-dias"
+    },
+    {
+      "fecha": "2026-11-08",
       "tipo": "Grabar",
       "plataforma": "tiktok",
       "formato": "Short",
@@ -46,7 +46,7 @@
       "estado": "Pendiente"
     },
     {
-      "fecha": "2026-11-07",
+      "fecha": "2026-11-08",
       "tipo": "Grabar",
       "plataforma": "tiktok",
       "formato": "Short",
@@ -55,7 +55,7 @@
       "guion": "guion-cambiaria"
     },
     {
-      "fecha": "2026-11-07",
+      "fecha": "2026-11-08",
       "tipo": "Grabar",
       "plataforma": "tiktok",
       "formato": "Short",
