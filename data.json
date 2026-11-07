@@ -119,7 +119,7 @@
       "plataforma": "youtube",
       "formato": "Largo",
       "titulo": "Cuanto gasto en un mes viviendo sola en España. Todos mis gastos",
-      "estado": "Grabar en horizontal (16:9) · unas 3 h · editar entre el 9 y el 16 nov · publicar el 17 a las 15:00"
+      "estado": "Grabar en horizontal (16:9) · unas 3 h · editar entre el 9 y el 11 nov · publicar el 12 a las 15:00"
     },
     {
       "fecha": "2026-11-09",
@@ -127,7 +127,7 @@
       "plataforma": "youtube",
       "formato": "Largo",
       "titulo": "10 cosas que necesitas al independizarte por primera vez",
-      "estado": "Grabar en horizontal (16:9) · editar el 10–11 nov · publicar el 12 a las 15:00"
+      "estado": "Grabar en horizontal (16:9) · editar entre el 13 y el 16 nov · publicar el 17 a las 15:00"
     },
     {
       "fecha": "2026-11-09",
@@ -275,8 +275,8 @@
       "tipo": "Publicar",
       "plataforma": "youtube",
       "formato": "Largo",
-      "titulo": "10 cosas que necesitas al independizarte por primera vez",
-      "estado": "Programado · 15:00 · grabar 9 nov, editar 10–11 nov"
+      "titulo": "Cuanto gasto en un mes viviendo sola en España. Todos mis gastos",
+      "estado": "Programado · 15:00 · grabar 8 nov, editar 9–11 nov"
     },
     {
       "fecha": "2026-11-13",
@@ -394,6 +394,14 @@
     {
       "fecha": "2026-11-17",
       "tipo": "Publicar",
+      "plataforma": "youtube",
+      "formato": "Largo",
+      "titulo": "10 cosas que necesitas al independizarte por primera vez",
+      "estado": "Programado · 15:00 · grabar 9 nov, editar 13–16 nov"
+    },
+    {
+      "fecha": "2026-11-17",
+      "tipo": "Publicar",
       "plataforma": "tiktok",
       "formato": "Short",
       "titulo": "Lo que hago con la nevera antes de irme de viaje (y lo que congelo)",
@@ -417,14 +425,6 @@
       "titulo": "Lo que hago con la nevera antes de irme de viaje (y lo que congelo)",
       "estado": "Short · mismo vídeo que TikTok · Programado",
       "guion": "guion-nevera"
-    },
-    {
-      "fecha": "2026-11-17",
-      "tipo": "Publicar",
-      "plataforma": "youtube",
-      "formato": "Largo",
-      "titulo": "Cuanto gasto en un mes viviendo sola en España. Todos mis gastos",
-      "estado": "Publicar a las 15:00 · grabar 8 nov, editar 9–16 nov"
     },
     {
       "fecha": "2026-11-18",
