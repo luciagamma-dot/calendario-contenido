@@ -115,14 +115,6 @@
       "estado": "Pendiente"
     },
     {
-      "fecha": "2026-11-08",
-      "tipo": "Grabar",
-      "plataforma": "youtube",
-      "formato": "Largo",
-      "titulo": "Cuanto gasto en un mes viviendo sola en España. Todos mis gastos",
-      "estado": "Grabar en horizontal (16:9) · unas 3 h · editar entre el 9 y el 11 nov · publicar el 12 a las 15:00"
-    },
-    {
       "fecha": "2026-11-09",
       "tipo": "Grabar",
       "plataforma": "youtube",
@@ -164,6 +156,14 @@
       "formato": "Directo",
       "titulo": "Comentando pisos (directo)",
       "estado": "Programado · 20:30–22:00"
+    },
+    {
+      "fecha": "2026-11-10",
+      "tipo": "Grabar",
+      "plataforma": "youtube",
+      "formato": "Largo",
+      "titulo": "Cuanto gasto en un mes viviendo sola en España. Todos mis gastos",
+      "estado": "Grabar en horizontal (16:9) · unas 3 h · editar el 11 nov · publicar el 12 a las 15:00"
     },
     {
       "fecha": "2026-11-10",
