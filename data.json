@@ -124,6 +124,14 @@
     },
     {
       "fecha": "2026-11-09",
+      "tipo": "Grabar",
+      "plataforma": "tiktok",
+      "formato": "Short",
+      "titulo": "Calendario de adviento con mis sobras de skincare y maquillaje para mi prima",
+      "estado": "Grabar · editar el 10 por la mañana · publicar el 11"
+    },
+    {
+      "fecha": "2026-11-09",
       "tipo": "Publicar",
       "plataforma": "tiktok",
       "formato": "Short",
@@ -216,24 +224,6 @@
     {
       "fecha": "2026-11-11",
       "tipo": "Publicar",
-      "plataforma": "tiktok",
-      "formato": "Short",
-      "titulo": "Lo que pido a domicilio cuando llego tarde y la nevera está vacía: mi ranking de 5",
-      "estado": "Programado",
-      "guion": "guion-domicilio"
-    },
-    {
-      "fecha": "2026-11-11",
-      "tipo": "Publicar",
-      "plataforma": "instagram",
-      "formato": "Short",
-      "titulo": "Lo que pido a domicilio cuando llego tarde y la nevera está vacía: mi ranking de 5",
-      "estado": "Reel · mismo vídeo que TikTok · Programado",
-      "guion": "guion-domicilio"
-    },
-    {
-      "fecha": "2026-11-11",
-      "tipo": "Publicar",
       "plataforma": "instagram",
       "formato": "Carrusel",
       "titulo": "Carrusel de fotos (lifestyle)",
@@ -242,10 +232,26 @@
     {
       "fecha": "2026-11-11",
       "tipo": "Publicar",
+      "plataforma": "tiktok",
+      "formato": "Short",
+      "titulo": "Calendario de adviento con mis sobras de skincare y maquillaje para mi prima",
+      "estado": "Programado · mismo vídeo en las tres plataformas"
+    },
+    {
+      "fecha": "2026-11-11",
+      "tipo": "Publicar",
+      "plataforma": "instagram",
+      "formato": "Short",
+      "titulo": "Calendario de adviento con mis sobras de skincare y maquillaje para mi prima",
+      "estado": "Reel · Programado · mismo vídeo en las tres plataformas"
+    },
+    {
+      "fecha": "2026-11-11",
+      "tipo": "Publicar",
       "plataforma": "youtube",
       "formato": "Short",
-      "titulo": "Lo que pido a domicilio cuando llego tarde y la nevera está vacía: mi ranking de 5",
-      "estado": "Short · mismo vídeo que TikTok · Programado"
+      "titulo": "Calendario de adviento con mis sobras de skincare y maquillaje para mi prima",
+      "estado": "Short · Programado · mismo vídeo en las tres plataformas"
     },
     {
       "fecha": "2026-11-12",
@@ -841,6 +847,30 @@
       "formato": "Carrusel",
       "titulo": "Carrusel de fotos (lifestyle)",
       "estado": "Programado · 19:30 · pendiente de fotos"
+    },
+    {
+      "fecha": "2026-12-02",
+      "tipo": "Publicar",
+      "plataforma": "tiktok",
+      "formato": "Short",
+      "titulo": "Lo que pido a domicilio cuando llego tarde y la nevera está vacía: mi ranking de 5",
+      "estado": "Programado · mismo vídeo en las tres plataformas"
+    },
+    {
+      "fecha": "2026-12-02",
+      "tipo": "Publicar",
+      "plataforma": "instagram",
+      "formato": "Short",
+      "titulo": "Lo que pido a domicilio cuando llego tarde y la nevera está vacía: mi ranking de 5",
+      "estado": "Reel · Programado · mismo vídeo en las tres plataformas"
+    },
+    {
+      "fecha": "2026-12-02",
+      "tipo": "Publicar",
+      "plataforma": "youtube",
+      "formato": "Short",
+      "titulo": "Lo que pido a domicilio cuando llego tarde y la nevera está vacía: mi ranking de 5",
+      "estado": "Short · Programado · mismo vídeo en las tres plataformas"
     },
     {
       "fecha": "2026-12-03",
