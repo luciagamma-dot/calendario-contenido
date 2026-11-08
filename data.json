@@ -278,17 +278,17 @@
       "fecha": "2026-11-12",
       "tipo": "Publicar",
       "plataforma": "youtube",
-      "formato": "Largo",
-      "titulo": "Cuanto gasto en un mes viviendo sola en España. Todos mis gastos",
-      "estado": "Programado · 15:00 · grabar 8 nov, editar 9–11 nov"
+      "formato": "Short",
+      "titulo": "Comentando pisos (clips del directo)",
+      "estado": "Short · Clips del directo del martes"
     },
     {
       "fecha": "2026-11-12",
       "tipo": "Publicar",
       "plataforma": "youtube",
-      "formato": "Short",
-      "titulo": "Comentando pisos (clips del directo)",
-      "estado": "Short · Clips del directo del martes"
+      "formato": "Largo",
+      "titulo": "Cuanto gasto en un mes viviendo sola en España. Todos mis gastos",
+      "estado": "Programado · 17:00 · grabar 8 nov, editar 9–11 nov"
     },
     {
       "fecha": "2026-11-13",
@@ -369,6 +369,14 @@
       "estado": "Short · mismo vídeo que TikTok · Programado"
     },
     {
+      "fecha": "2026-11-15",
+      "tipo": "Publicar",
+      "plataforma": "youtube",
+      "formato": "Largo",
+      "titulo": "10 cosas que necesitas al independizarte por primera vez",
+      "estado": "Programado · 10:00 · grabar 9 nov · editar antes del 15 nov"
+    },
+    {
       "fecha": "2026-11-16",
       "tipo": "Publicar",
       "plataforma": "tiktok",
@@ -402,14 +410,6 @@
       "formato": "Directo",
       "titulo": "Comentando pisos (directo)",
       "estado": "Programado · 20:30–22:00"
-    },
-    {
-      "fecha": "2026-11-17",
-      "tipo": "Publicar",
-      "plataforma": "youtube",
-      "formato": "Largo",
-      "titulo": "10 cosas que necesitas al independizarte por primera vez",
-      "estado": "Programado · 15:00 · grabar 9 nov, editar 13–16 nov"
     },
     {
       "fecha": "2026-11-17",
@@ -500,7 +500,7 @@
       "plataforma": "youtube",
       "formato": "Largo",
       "titulo": "Vídeo largo de YouTube (tema por decidir)",
-      "estado": "Publicar a las 15:00 · tema por decidir"
+      "estado": "Publicar a las 17:00 · tema por decidir"
     },
     {
       "fecha": "2026-11-20",
@@ -621,6 +621,14 @@
       "estado": "Short · mismo vídeo que TikTok · Programado"
     },
     {
+      "fecha": "2026-11-22",
+      "tipo": "Publicar",
+      "plataforma": "youtube",
+      "formato": "Largo",
+      "titulo": "Vídeo largo de YouTube (tema por decidir)",
+      "estado": "Publicar a las 10:00 · tema por decidir"
+    },
+    {
       "fecha": "2026-11-23",
       "tipo": "Publicar",
       "plataforma": "tiktok",
@@ -681,14 +689,6 @@
       "titulo": "Lo que nadie te dice de vivir sola desde el primer día",
       "estado": "Short · mismo vídeo que TikTok · Programado",
       "guion": "guion-vivir-sola"
-    },
-    {
-      "fecha": "2026-11-24",
-      "tipo": "Publicar",
-      "plataforma": "youtube",
-      "formato": "Largo",
-      "titulo": "Vídeo largo de YouTube (tema por decidir)",
-      "estado": "Publicar a las 15:00 · tema por decidir"
     },
     {
       "fecha": "2026-11-25",
@@ -760,7 +760,7 @@
       "plataforma": "youtube",
       "formato": "Largo",
       "titulo": "Vídeo largo de YouTube (tema por decidir)",
-      "estado": "Publicar a las 15:00 · tema por decidir"
+      "estado": "Publicar a las 17:00 · tema por decidir"
     },
     {
       "fecha": "2026-11-27",
@@ -790,60 +790,60 @@
       "guion": "guion-plato-3min"
     },
     {
-      "fecha": "2026-11-30",
-      "tipo": "Publicar",
-      "plataforma": "tiktok",
-      "formato": "Short",
-      "titulo": "Adivinando la película con un frame (con mi novia)",
-      "estado": "Programado"
-    },
-    {
-      "fecha": "2026-11-30",
-      "tipo": "Publicar",
-      "plataforma": "instagram",
-      "formato": "Short",
-      "titulo": "Adivinando la película con un frame (con mi novia)",
-      "estado": "Reel · mismo vídeo que TikTok · Programado"
-    },
-    {
-      "fecha": "2026-11-30",
-      "tipo": "Publicar",
-      "plataforma": "youtube",
-      "formato": "Short",
-      "titulo": "Adivinando la película con un frame (con mi novia)",
-      "estado": "Short · mismo vídeo que TikTok · Programado"
-    },
-    {
-      "fecha": "2026-12-01",
-      "tipo": "Publicar",
-      "plataforma": "tiktok",
-      "formato": "Short",
-      "titulo": "Regalos para independizados que hay que pedir ya para Navidad",
-      "estado": "Programado"
-    },
-    {
-      "fecha": "2026-12-01",
-      "tipo": "Publicar",
-      "plataforma": "instagram",
-      "formato": "Short",
-      "titulo": "Regalos para independizados que hay que pedir ya para Navidad",
-      "estado": "Reel · mismo vídeo que TikTok · Programado"
-    },
-    {
-      "fecha": "2026-12-01",
-      "tipo": "Publicar",
-      "plataforma": "youtube",
-      "formato": "Short",
-      "titulo": "Regalos para independizados que hay que pedir ya para Navidad",
-      "estado": "Short · mismo vídeo que TikTok · Programado"
-    },
-    {
-      "fecha": "2026-12-01",
+      "fecha": "2026-11-29",
       "tipo": "Publicar",
       "plataforma": "youtube",
       "formato": "Largo",
       "titulo": "Vídeo largo de YouTube (tema por decidir)",
-      "estado": "Publicar a las 15:00 · tema por decidir"
+      "estado": "Publicar a las 10:00 · tema por decidir"
+    },
+    {
+      "fecha": "2026-11-30",
+      "tipo": "Publicar",
+      "plataforma": "tiktok",
+      "formato": "Short",
+      "titulo": "Adivinando la película con un frame (con mi novia)",
+      "estado": "Programado"
+    },
+    {
+      "fecha": "2026-11-30",
+      "tipo": "Publicar",
+      "plataforma": "instagram",
+      "formato": "Short",
+      "titulo": "Adivinando la película con un frame (con mi novia)",
+      "estado": "Reel · mismo vídeo que TikTok · Programado"
+    },
+    {
+      "fecha": "2026-11-30",
+      "tipo": "Publicar",
+      "plataforma": "youtube",
+      "formato": "Short",
+      "titulo": "Adivinando la película con un frame (con mi novia)",
+      "estado": "Short · mismo vídeo que TikTok · Programado"
+    },
+    {
+      "fecha": "2026-12-01",
+      "tipo": "Publicar",
+      "plataforma": "tiktok",
+      "formato": "Short",
+      "titulo": "Regalos para independizados que hay que pedir ya para Navidad",
+      "estado": "Programado"
+    },
+    {
+      "fecha": "2026-12-01",
+      "tipo": "Publicar",
+      "plataforma": "instagram",
+      "formato": "Short",
+      "titulo": "Regalos para independizados que hay que pedir ya para Navidad",
+      "estado": "Reel · mismo vídeo que TikTok · Programado"
+    },
+    {
+      "fecha": "2026-12-01",
+      "tipo": "Publicar",
+      "plataforma": "youtube",
+      "formato": "Short",
+      "titulo": "Regalos para independizados que hay que pedir ya para Navidad",
+      "estado": "Short · mismo vídeo que TikTok · Programado"
     },
     {
       "fecha": "2026-12-02",
@@ -883,7 +883,7 @@
       "plataforma": "youtube",
       "formato": "Largo",
       "titulo": "Vídeo largo de YouTube (tema por decidir)",
-      "estado": "Publicar a las 15:00 · tema por decidir"
+      "estado": "Publicar a las 17:00 · tema por decidir"
     }
   ]
 }
