@@ -52,7 +52,8 @@
       "formato": "Short",
       "titulo": "Lo que cambiaría de mi casa después de 3 años viviendo sola",
       "estado": "Pendiente",
-      "guion": "guion-cambiaria"
+      "guion": "guion-cambiaria",
+      "hecho": true
     },
     {
       "fecha": "2026-11-08",
@@ -61,7 +62,8 @@
       "formato": "Short",
       "titulo": "Lo que compraría hoy si empezara de cero (y lo que no)",
       "estado": "Pendiente",
-      "guion": "guion-compraria"
+      "guion": "guion-compraria",
+      "hecho": true
     },
     {
       "fecha": "2026-11-08",
@@ -78,7 +80,8 @@
       "formato": "Short",
       "titulo": "Errores que cometí en mi primer piso (no repitas el mío)",
       "estado": "Pendiente",
-      "guion": "guion-errores"
+      "guion": "guion-errores",
+      "hecho": true
     },
     {
       "fecha": "2026-11-08",
@@ -87,7 +90,8 @@
       "formato": "Short",
       "titulo": "Lo que hago con la nevera antes de irme de viaje (y lo que congelo)",
       "estado": "Pendiente",
-      "guion": "guion-nevera"
+      "guion": "guion-nevera",
+      "hecho": true
     },
     {
       "fecha": "2026-11-08",
@@ -95,7 +99,8 @@
       "plataforma": "tiktok",
       "formato": "Short",
       "titulo": "Si alguien más se pone la alarma una hora antes para dormir más",
-      "estado": "Pendiente"
+      "estado": "Pendiente",
+      "hecho": true
     },
     {
       "fecha": "2026-11-08",
