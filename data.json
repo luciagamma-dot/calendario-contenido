@@ -179,6 +179,22 @@
       "estado": "Grabar en horizontal (16:9) · unas 3 h · editar el 11 nov · publicar el 12 a las 15:00"
     },
     {
+      "fecha": "2026-11-10",
+      "tipo": "Publicar",
+      "plataforma": "tiktok",
+      "formato": "Short",
+      "titulo": "Sacando productos de cajas que tengo en casa",
+      "estado": "Clip vertical del vídeo largo · mismo día"
+    },
+    {
+      "fecha": "2026-11-10",
+      "tipo": "Publicar",
+      "plataforma": "instagram",
+      "formato": "Short",
+      "titulo": "Sacando productos de cajas que tengo en casa",
+      "estado": "Reel · Clip vertical del vídeo largo · mismo día"
+    },
+    {
       "fecha": "2026-11-11",
       "tipo": "Grabar",
       "plataforma": "tiktok",
@@ -233,22 +249,6 @@
       "formato": "Largo",
       "titulo": "Sacando productos de cajas que tengo en casa",
       "estado": "Programado · 17:00 · vídeo largo · clips verticales el mismo día"
-    },
-    {
-      "fecha": "2026-11-12",
-      "tipo": "Publicar",
-      "plataforma": "tiktok",
-      "formato": "Short",
-      "titulo": "Sacando productos de cajas que tengo en casa",
-      "estado": "Clip vertical del vídeo largo · mismo día"
-    },
-    {
-      "fecha": "2026-11-12",
-      "tipo": "Publicar",
-      "plataforma": "instagram",
-      "formato": "Short",
-      "titulo": "Sacando productos de cajas que tengo en casa",
-      "estado": "Reel · Clip vertical del vídeo largo · mismo día"
     },
     {
       "fecha": "2026-11-12",
