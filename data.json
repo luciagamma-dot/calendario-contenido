@@ -142,7 +142,8 @@
       "formato": "Short",
       "titulo": "Comer 3 días con 20 €",
       "estado": "Programado",
-      "guion": "guion-comer-3-dias"
+      "guion": "guion-comer-3-dias",
+      "hecho": true
     },
     {
       "fecha": "2026-11-09",
@@ -151,7 +152,8 @@
       "formato": "Short",
       "titulo": "Comer 3 días con 20 €",
       "estado": "Reel · mismo vídeo que TikTok · Programado",
-      "guion": "guion-comer-3-dias"
+      "guion": "guion-comer-3-dias",
+      "hecho": true
     },
     {
       "fecha": "2026-11-09",
@@ -160,7 +162,8 @@
       "formato": "Short",
       "titulo": "Comer 3 días con 20 €",
       "estado": "Short · mismo vídeo que TikTok · Programado",
-      "guion": "guion-comer-3-dias"
+      "guion": "guion-comer-3-dias",
+      "hecho": true
     },
     {
       "fecha": "2026-11-10",
