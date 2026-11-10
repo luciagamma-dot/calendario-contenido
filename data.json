@@ -186,16 +186,18 @@
       "tipo": "Publicar",
       "plataforma": "tiktok",
       "formato": "Short",
-      "titulo": "Sacando productos de cajas que tengo en casa",
-      "estado": "Clip vertical del vídeo largo · mismo día"
+      "titulo": "3 cosas que cambiaría de mi casa 3 años después de vivir sola",
+      "estado": "Programado · hoy 10 nov · mismo vídeo en TikTok e Instagram",
+      "guion": "guion-cambiaria"
     },
     {
       "fecha": "2026-11-10",
       "tipo": "Publicar",
       "plataforma": "instagram",
       "formato": "Short",
-      "titulo": "Sacando productos de cajas que tengo en casa",
-      "estado": "Reel · Clip vertical del vídeo largo · mismo día"
+      "titulo": "3 cosas que cambiaría de mi casa 3 años después de vivir sola",
+      "estado": "Reel · Programado · hoy 10 nov · mismo vídeo en TikTok e Instagram",
+      "guion": "guion-cambiaria"
     },
     {
       "fecha": "2026-11-11",
@@ -290,25 +292,23 @@
       "tipo": "Publicar",
       "plataforma": "tiktok",
       "formato": "Short",
-      "titulo": "Lo que cambiaría de mi casa después de 3 años viviendo sola",
-      "estado": "Programado",
-      "guion": "guion-cambiaria"
+      "titulo": "Sacando productos de cajas que tengo en casa",
+      "estado": "Clip vertical del vídeo largo · sale el 13"
     },
     {
       "fecha": "2026-11-13",
       "tipo": "Publicar",
       "plataforma": "instagram",
       "formato": "Short",
-      "titulo": "Lo que cambiaría de mi casa después de 3 años viviendo sola",
-      "estado": "Reel · mismo vídeo que TikTok · Programado",
-      "guion": "guion-cambiaria"
+      "titulo": "Sacando productos de cajas que tengo en casa",
+      "estado": "Reel · Clip vertical del vídeo largo · sale el 13"
     },
     {
       "fecha": "2026-11-13",
       "tipo": "Publicar",
       "plataforma": "youtube",
       "formato": "Short",
-      "titulo": "Lo que cambiaría de mi casa después de 3 años viviendo sola",
+      "titulo": "3 cosas que cambiaría de mi casa 3 años después de vivir sola",
       "estado": "Short · mismo vídeo que TikTok · Programado",
       "guion": "guion-cambiaria"
     },
